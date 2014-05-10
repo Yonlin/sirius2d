@@ -1,0 +1,3015 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sirius2d游戏引擎API</title>
+    <meta name="description" content="Sirius2d是一款使用JavaScript编写的HTML5开源免费游戏框架，其核心定位是开放，高效，优雅。 基于它，你可以快速轻松地构建属于自己的HTML5移动游戏。" />
+    <meta name="keywords" content="Sirius2d,游戏引擎,HTML5,2d,物理引擎,网页游戏,开源框架,手机游戏,开发文档,开发手册" />
+    <meta name="keyword" content="Sirius2d,游戏引擎,HTML5,2d,物理引擎,网页游戏,开源框架,手机游戏,开发文档,开发手册" />
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:url" content=""/>
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":true,"cleverLinks":true,"default":{"outputSourceFiles":true},"applicationName":"Sirius2d","disqus":"sirius2d","googleAnalytics":"","openGraph":{"title":"","type":"website","image":"","site_name":"","url":""},"meta":{"title":"Sirius2d游戏引擎API","description":"Sirius2d是一款使用JavaScript编写的HTML5开源免费游戏框架，其核心定位是开放，高效，优雅。 基于它，你可以快速轻松地构建属于自己的HTML5移动游戏。","keyword":"Sirius2d,游戏引擎,HTML5,2d,物理引擎,网页游戏,开源框架,手机游戏,开发文档,开发手册"}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">Sirius2d</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="搜索一下">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="ss2d">
+            <span class="title">
+                <a href="ss2d.html">ss2d</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.canvas"><a href="ss2d.html#canvas">canvas</a></li>
+            
+                <li data-name="ss2d.context"><a href="ss2d.html#context">context</a></li>
+            
+                <li data-name="ss2d.debug"><a href="ss2d.html#debug">debug</a></li>
+            
+                <li data-name="ss2d.global"><a href="ss2d.html#global">global</a></li>
+            
+                <li data-name="ss2d.LoadQueue"><a href="ss2d.html#LoadQueue">LoadQueue</a></li>
+            
+                <li data-name="ss2d.nocache"><a href="ss2d.html#nocache">nocache</a></li>
+            
+                <li data-name="ss2d.QuadData"><a href="ss2d.html#QuadData">QuadData</a></li>
+            
+                <li data-name="ss2d.QuadMatrixUtil"><a href="ss2d.html#QuadMatrixUtil">QuadMatrixUtil</a></li>
+            
+                <li data-name="ss2d.QuadResource"><a href="ss2d.html#QuadResource">QuadResource</a></li>
+            
+                <li data-name="ss2d.sound"><a href="ss2d.html#sound">sound</a></li>
+            
+                <li data-name="ss2d.Timer"><a href="ss2d.html#Timer">Timer</a></li>
+            
+                <li data-name="ss2d.useMouseMove"><a href="ss2d.html#useMouseMove">useMouseMove</a></li>
+            
+                <li data-name="ss2d.version"><a href="ss2d.html#version">version</a></li>
+            
+                <li data-name="ss2d.xmlUnderline"><a href="ss2d.html#xmlUnderline">xmlUnderline</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.$"><a href="ss2d.html#$">$</a></li>
+            
+                <li data-name="ss2d.$new"><a href="ss2d.html#$new">$new</a></li>
+            
+                <li data-name="ss2d.cancelFullScreen"><a href="ss2d.html#cancelFullScreen">cancelFullScreen</a></li>
+            
+                <li data-name="ss2d.copy"><a href="ss2d.html#copy">copy</a></li>
+            
+                <li data-name="ss2d.degreeToRadian"><a href="ss2d.html#degreeToRadian">degreeToRadian</a></li>
+            
+                <li data-name="ss2d.getElementOffset"><a href="ss2d.html#getElementOffset">getElementOffset</a></li>
+            
+                <li data-name="ss2d.getScope"><a href="ss2d.html#getScope">getScope</a></li>
+            
+                <li data-name="ss2d.hitPoint"><a href="ss2d.html#hitPoint">hitPoint</a></li>
+            
+                <li data-name="ss2d.hitTrianglePoint"><a href="ss2d.html#hitTrianglePoint">hitTrianglePoint</a></li>
+            
+                <li data-name="ss2d.isFullScreen"><a href="ss2d.html#isFullScreen">isFullScreen</a></li>
+            
+                <li data-name="ss2d.isPower_2"><a href="ss2d.html#isPower_2">isPower_2</a></li>
+            
+                <li data-name="ss2d.ksort"><a href="ss2d.html#ksort">ksort</a></li>
+            
+                <li data-name="ss2d.log"><a href="ss2d.html#log">log</a></li>
+            
+                <li data-name="ss2d.merge"><a href="ss2d.html#merge">merge</a></li>
+            
+                <li data-name="ss2d.orthographicViewportMatrix"><a href="ss2d.html#orthographicViewportMatrix">orthographicViewportMatrix</a></li>
+            
+                <li data-name="ss2d.proxy"><a href="ss2d.html#proxy">proxy</a></li>
+            
+                <li data-name="ss2d.radianToDegree"><a href="ss2d.html#radianToDegree">radianToDegree</a></li>
+            
+                <li data-name="ss2d.requestFullScreen"><a href="ss2d.html#requestFullScreen">requestFullScreen</a></li>
+            
+                <li data-name="ss2d.supportsFullScreen"><a href="ss2d.html#supportsFullScreen">supportsFullScreen</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Blend">
+            <span class="title">
+                <a href="ss2d.Blend.html">ss2d.Blend</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Broadcast">
+            <span class="title">
+                <a href="ss2d.Broadcast.html">ss2d.Broadcast</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ColorTransform">
+            <span class="title">
+                <a href="ss2d.ColorTransform.html">ss2d.ColorTransform</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ColorTransform#alphaMultiplier"><a href="ss2d.ColorTransform.html#alphaMultiplier">alphaMultiplier</a></li>
+            
+                <li data-name="ss2d.ColorTransform#alphaOffset"><a href="ss2d.ColorTransform.html#alphaOffset">alphaOffset</a></li>
+            
+                <li data-name="ss2d.ColorTransform#blueMultiplier"><a href="ss2d.ColorTransform.html#blueMultiplier">blueMultiplier</a></li>
+            
+                <li data-name="ss2d.ColorTransform#blueOffset"><a href="ss2d.ColorTransform.html#blueOffset">blueOffset</a></li>
+            
+                <li data-name="ss2d.ColorTransform#greenMultiplier"><a href="ss2d.ColorTransform.html#greenMultiplier">greenMultiplier</a></li>
+            
+                <li data-name="ss2d.ColorTransform#greenOffset"><a href="ss2d.ColorTransform.html#greenOffset">greenOffset</a></li>
+            
+                <li data-name="ss2d.ColorTransform#redMultiplier"><a href="ss2d.ColorTransform.html#redMultiplier">redMultiplier</a></li>
+            
+                <li data-name="ss2d.ColorTransform#redOffset"><a href="ss2d.ColorTransform.html#redOffset">redOffset</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.DisplayObject">
+            <span class="title">
+                <a href="ss2d.DisplayObject.html">ss2d.DisplayObject</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.DisplayObject#GPU"><a href="ss2d.DisplayObject.html#GPU">GPU</a></li>
+            
+                <li data-name="ss2d.DisplayObject#GPUX"><a href="ss2d.DisplayObject.html#GPUX">GPUX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#GPUY"><a href="ss2d.DisplayObject.html#GPUY">GPUY</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.DisplayObject#getA"><a href="ss2d.DisplayObject.html#getA">getA</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getAlpha"><a href="ss2d.DisplayObject.html#getAlpha">getAlpha</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getB"><a href="ss2d.DisplayObject.html#getB">getB</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getCenter"><a href="ss2d.DisplayObject.html#getCenter">getCenter</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getColor"><a href="ss2d.DisplayObject.html#getColor">getColor</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getForceCenter"><a href="ss2d.DisplayObject.html#getForceCenter">getForceCenter</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getG"><a href="ss2d.DisplayObject.html#getG">getG</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getHeight"><a href="ss2d.DisplayObject.html#getHeight">getHeight</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getIsRedraw"><a href="ss2d.DisplayObject.html#getIsRedraw">getIsRedraw</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getMouseEnabled"><a href="ss2d.DisplayObject.html#getMouseEnabled">getMouseEnabled</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getParent"><a href="ss2d.DisplayObject.html#getParent">getParent</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getPivotX"><a href="ss2d.DisplayObject.html#getPivotX">getPivotX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getPivotY"><a href="ss2d.DisplayObject.html#getPivotY">getPivotY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getR"><a href="ss2d.DisplayObject.html#getR">getR</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getRotation"><a href="ss2d.DisplayObject.html#getRotation">getRotation</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getScaleX"><a href="ss2d.DisplayObject.html#getScaleX">getScaleX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getScaleY"><a href="ss2d.DisplayObject.html#getScaleY">getScaleY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getSkewX"><a href="ss2d.DisplayObject.html#getSkewX">getSkewX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getSkewY"><a href="ss2d.DisplayObject.html#getSkewY">getSkewY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getUserData"><a href="ss2d.DisplayObject.html#getUserData">getUserData</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getVisible"><a href="ss2d.DisplayObject.html#getVisible">getVisible</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getWidth"><a href="ss2d.DisplayObject.html#getWidth">getWidth</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getX"><a href="ss2d.DisplayObject.html#getX">getX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#getY"><a href="ss2d.DisplayObject.html#getY">getY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#hitTestObject"><a href="ss2d.DisplayObject.html#hitTestObject">hitTestObject</a></li>
+            
+                <li data-name="ss2d.DisplayObject#hitTestPoint"><a href="ss2d.DisplayObject.html#hitTestPoint">hitTestPoint</a></li>
+            
+                <li data-name="ss2d.DisplayObject#hitTestRoundness"><a href="ss2d.DisplayObject.html#hitTestRoundness">hitTestRoundness</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setA"><a href="ss2d.DisplayObject.html#setA">setA</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setAlpha"><a href="ss2d.DisplayObject.html#setAlpha">setAlpha</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setB"><a href="ss2d.DisplayObject.html#setB">setB</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setCenter"><a href="ss2d.DisplayObject.html#setCenter">setCenter</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setColor"><a href="ss2d.DisplayObject.html#setColor">setColor</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setForceCenter"><a href="ss2d.DisplayObject.html#setForceCenter">setForceCenter</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setG"><a href="ss2d.DisplayObject.html#setG">setG</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setHeight"><a href="ss2d.DisplayObject.html#setHeight">setHeight</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setIsRedraw"><a href="ss2d.DisplayObject.html#setIsRedraw">setIsRedraw</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setMouseEnabled"><a href="ss2d.DisplayObject.html#setMouseEnabled">setMouseEnabled</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setParent"><a href="ss2d.DisplayObject.html#setParent">setParent</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setPivotX"><a href="ss2d.DisplayObject.html#setPivotX">setPivotX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setPivotY"><a href="ss2d.DisplayObject.html#setPivotY">setPivotY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setR"><a href="ss2d.DisplayObject.html#setR">setR</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setRotation"><a href="ss2d.DisplayObject.html#setRotation">setRotation</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setScaleX"><a href="ss2d.DisplayObject.html#setScaleX">setScaleX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setScaleY"><a href="ss2d.DisplayObject.html#setScaleY">setScaleY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setSkewX"><a href="ss2d.DisplayObject.html#setSkewX">setSkewX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setSkewY"><a href="ss2d.DisplayObject.html#setSkewY">setSkewY</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setUserData"><a href="ss2d.DisplayObject.html#setUserData">setUserData</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setVisible"><a href="ss2d.DisplayObject.html#setVisible">setVisible</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setWidth"><a href="ss2d.DisplayObject.html#setWidth">setWidth</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setX"><a href="ss2d.DisplayObject.html#setX">setX</a></li>
+            
+                <li data-name="ss2d.DisplayObject#setY"><a href="ss2d.DisplayObject.html#setY">setY</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.EventDispatcher">
+            <span class="title">
+                <a href="ss2d.EventDispatcher.html">ss2d.EventDispatcher</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.EventDispatcher#addEventListener"><a href="ss2d.EventDispatcher.html#addEventListener">addEventListener</a></li>
+            
+                <li data-name="ss2d.EventDispatcher#dispatchEvent"><a href="ss2d.EventDispatcher.html#dispatchEvent">dispatchEvent</a></li>
+            
+                <li data-name="ss2d.EventDispatcher#hasEventListener"><a href="ss2d.EventDispatcher.html#hasEventListener">hasEventListener</a></li>
+            
+                <li data-name="ss2d.EventDispatcher#on"><a href="ss2d.EventDispatcher.html#on">on</a></li>
+            
+                <li data-name="ss2d.EventDispatcher#removeAllEventListeners"><a href="ss2d.EventDispatcher.html#removeAllEventListeners">removeAllEventListeners</a></li>
+            
+                <li data-name="ss2d.EventDispatcher#removeEventListener"><a href="ss2d.EventDispatcher.html#removeEventListener">removeEventListener</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.FrameBuffer">
+            <span class="title">
+                <a href="ss2d.FrameBuffer.html">ss2d.FrameBuffer</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.FrameBuffer#addChild"><a href="ss2d.FrameBuffer.html#addChild">addChild</a></li>
+            
+                <li data-name="ss2d.FrameBuffer#getFrameBuff"><a href="ss2d.FrameBuffer.html#getFrameBuff">getFrameBuff</a></li>
+            
+                <li data-name="ss2d.FrameBuffer#isClear"><a href="ss2d.FrameBuffer.html#isClear">isClear</a></li>
+            
+                <li data-name="ss2d.FrameBuffer#removeChild"><a href="ss2d.FrameBuffer.html#removeChild">removeChild</a></li>
+            
+                <li data-name="ss2d.FrameBuffer#setDisplay"><a href="ss2d.FrameBuffer.html#setDisplay">setDisplay</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.FrameFunction">
+            <span class="title">
+                <a href="ss2d.FrameFunction.html">ss2d.FrameFunction</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.FrameFunction#callback"><a href="ss2d.FrameFunction.html#callback">callback</a></li>
+            
+                <li data-name="ss2d.FrameFunction#frame"><a href="ss2d.FrameFunction.html#frame">frame</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Group">
+            <span class="title">
+                <a href="ss2d.Group.html">ss2d.Group</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Group#addChild"><a href="ss2d.Group.html#addChild">addChild</a></li>
+            
+                <li data-name="ss2d.Group#clearParentGroup"><a href="ss2d.Group.html#clearParentGroup">clearParentGroup</a></li>
+            
+                <li data-name="ss2d.Group#containsGroup"><a href="ss2d.Group.html#containsGroup">containsGroup</a></li>
+            
+                <li data-name="ss2d.Group#dispose"><a href="ss2d.Group.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.Group#getRotation"><a href="ss2d.Group.html#getRotation">getRotation</a></li>
+            
+                <li data-name="ss2d.Group#getScaleX"><a href="ss2d.Group.html#getScaleX">getScaleX</a></li>
+            
+                <li data-name="ss2d.Group#getScaleY"><a href="ss2d.Group.html#getScaleY">getScaleY</a></li>
+            
+                <li data-name="ss2d.Group#getSkewX"><a href="ss2d.Group.html#getSkewX">getSkewX</a></li>
+            
+                <li data-name="ss2d.Group#getSkewY"><a href="ss2d.Group.html#getSkewY">getSkewY</a></li>
+            
+                <li data-name="ss2d.Group#getX"><a href="ss2d.Group.html#getX">getX</a></li>
+            
+                <li data-name="ss2d.Group#getY"><a href="ss2d.Group.html#getY">getY</a></li>
+            
+                <li data-name="ss2d.Group#removeChild"><a href="ss2d.Group.html#removeChild">removeChild</a></li>
+            
+                <li data-name="ss2d.Group#setParentGroup"><a href="ss2d.Group.html#setParentGroup">setParentGroup</a></li>
+            
+                <li data-name="ss2d.Group#setRotation"><a href="ss2d.Group.html#setRotation">setRotation</a></li>
+            
+                <li data-name="ss2d.Group#setScaleX"><a href="ss2d.Group.html#setScaleX">setScaleX</a></li>
+            
+                <li data-name="ss2d.Group#setScaleY"><a href="ss2d.Group.html#setScaleY">setScaleY</a></li>
+            
+                <li data-name="ss2d.Group#setSkewX"><a href="ss2d.Group.html#setSkewX">setSkewX</a></li>
+            
+                <li data-name="ss2d.Group#setSkewY"><a href="ss2d.Group.html#setSkewY">setSkewY</a></li>
+            
+                <li data-name="ss2d.Group#setX"><a href="ss2d.Group.html#setX">setX</a></li>
+            
+                <li data-name="ss2d.Group#setY"><a href="ss2d.Group.html#setY">setY</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Matrix2D">
+            <span class="title">
+                <a href="ss2d.Matrix2D.html">ss2d.Matrix2D</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Matrix2D#rawData"><a href="ss2d.Matrix2D.html#rawData">rawData</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Matrix2D#add1x3"><a href="ss2d.Matrix2D.html#add1x3">add1x3</a></li>
+            
+                <li data-name="ss2d.Matrix2D#add1x32"><a href="ss2d.Matrix2D.html#add1x32">add1x32</a></li>
+            
+                <li data-name="ss2d.Matrix2D#add3x3"><a href="ss2d.Matrix2D.html#add3x3">add3x3</a></li>
+            
+                <li data-name="ss2d.Matrix2D#add3x32"><a href="ss2d.Matrix2D.html#add3x32">add3x32</a></li>
+            
+                <li data-name="ss2d.Matrix2D#appendRotation"><a href="ss2d.Matrix2D.html#appendRotation">appendRotation</a></li>
+            
+                <li data-name="ss2d.Matrix2D#appendTranslation"><a href="ss2d.Matrix2D.html#appendTranslation">appendTranslation</a></li>
+            
+                <li data-name="ss2d.Matrix2D#identity"><a href="ss2d.Matrix2D.html#identity">identity</a></li>
+            
+                <li data-name="ss2d.Matrix2D#upDateMatrix"><a href="ss2d.Matrix2D.html#upDateMatrix">upDateMatrix</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Matrix3D">
+            <span class="title">
+                <a href="ss2d.Matrix3D.html">ss2d.Matrix3D</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Matrix3D#rawData"><a href="ss2d.Matrix3D.html#rawData">rawData</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Matrix3D#add1x4"><a href="ss2d.Matrix3D.html#add1x4">add1x4</a></li>
+            
+                <li data-name="ss2d.Matrix3D#add4x4"><a href="ss2d.Matrix3D.html#add4x4">add4x4</a></li>
+            
+                <li data-name="ss2d.Matrix3D#appendRotation"><a href="ss2d.Matrix3D.html#appendRotation">appendRotation</a></li>
+            
+                <li data-name="ss2d.Matrix3D#appendTranslation"><a href="ss2d.Matrix3D.html#appendTranslation">appendTranslation</a></li>
+            
+                <li data-name="ss2d.Matrix3D#identity"><a href="ss2d.Matrix3D.html#identity">identity</a></li>
+            
+                <li data-name="ss2d.Matrix3D#upDateMatrix"><a href="ss2d.Matrix3D.html#upDateMatrix">upDateMatrix</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Message">
+            <span class="title">
+                <a href="ss2d.Message.html">ss2d.Message</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Message#type"><a href="ss2d.Message.html#type">type</a></li>
+            
+                <li data-name="ss2d.Message#userData"><a href="ss2d.Message.html#userData">userData</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.MouseEvent">
+            <span class="title">
+                <a href="ss2d.MouseEvent.html">ss2d.MouseEvent</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.MouseEvent#stageX"><a href="ss2d.MouseEvent.html#stageX">stageX</a></li>
+            
+                <li data-name="ss2d.MouseEvent#stageY"><a href="ss2d.MouseEvent.html#stageY">stageY</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.MovieClip">
+            <span class="title">
+                <a href="ss2d.MovieClip.html">ss2d.MovieClip</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.MovieClip#absCentre"><a href="ss2d.MovieClip.html#absCentre">absCentre</a></li>
+            
+                <li data-name="ss2d.MovieClip#addFrameScript"><a href="ss2d.MovieClip.html#addFrameScript">addFrameScript</a></li>
+            
+                <li data-name="ss2d.MovieClip#dispose"><a href="ss2d.MovieClip.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.MovieClip#frameDelay"><a href="ss2d.MovieClip.html#frameDelay">frameDelay</a></li>
+            
+                <li data-name="ss2d.MovieClip#getA"><a href="ss2d.MovieClip.html#getA">getA</a></li>
+            
+                <li data-name="ss2d.MovieClip#getAlpha"><a href="ss2d.MovieClip.html#getAlpha">getAlpha</a></li>
+            
+                <li data-name="ss2d.MovieClip#getB"><a href="ss2d.MovieClip.html#getB">getB</a></li>
+            
+                <li data-name="ss2d.MovieClip#getCenter"><a href="ss2d.MovieClip.html#getCenter">getCenter</a></li>
+            
+                <li data-name="ss2d.MovieClip#getColor"><a href="ss2d.MovieClip.html#getColor">getColor</a></li>
+            
+                <li data-name="ss2d.MovieClip#getCurrentFrame"><a href="ss2d.MovieClip.html#getCurrentFrame">getCurrentFrame</a></li>
+            
+                <li data-name="ss2d.MovieClip#getForceCenter"><a href="ss2d.MovieClip.html#getForceCenter">getForceCenter</a></li>
+            
+                <li data-name="ss2d.MovieClip#getG"><a href="ss2d.MovieClip.html#getG">getG</a></li>
+            
+                <li data-name="ss2d.MovieClip#getHeight"><a href="ss2d.MovieClip.html#getHeight">getHeight</a></li>
+            
+                <li data-name="ss2d.MovieClip#getIsRedraw"><a href="ss2d.MovieClip.html#getIsRedraw">getIsRedraw</a></li>
+            
+                <li data-name="ss2d.MovieClip#getMouseEnabled"><a href="ss2d.MovieClip.html#getMouseEnabled">getMouseEnabled</a></li>
+            
+                <li data-name="ss2d.MovieClip#getParent"><a href="ss2d.MovieClip.html#getParent">getParent</a></li>
+            
+                <li data-name="ss2d.MovieClip#getR"><a href="ss2d.MovieClip.html#getR">getR</a></li>
+            
+                <li data-name="ss2d.MovieClip#getRotation"><a href="ss2d.MovieClip.html#getRotation">getRotation</a></li>
+            
+                <li data-name="ss2d.MovieClip#getScaleX"><a href="ss2d.MovieClip.html#getScaleX">getScaleX</a></li>
+            
+                <li data-name="ss2d.MovieClip#getScaleY"><a href="ss2d.MovieClip.html#getScaleY">getScaleY</a></li>
+            
+                <li data-name="ss2d.MovieClip#getSkewX"><a href="ss2d.MovieClip.html#getSkewX">getSkewX</a></li>
+            
+                <li data-name="ss2d.MovieClip#getSkewY"><a href="ss2d.MovieClip.html#getSkewY">getSkewY</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTextureID"><a href="ss2d.MovieClip.html#getTextureID">getTextureID</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTileHeightOffset"><a href="ss2d.MovieClip.html#getTileHeightOffset">getTileHeightOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTileWidthOffset"><a href="ss2d.MovieClip.html#getTileWidthOffset">getTileWidthOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTileXOffset"><a href="ss2d.MovieClip.html#getTileXOffset">getTileXOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTileYOffset"><a href="ss2d.MovieClip.html#getTileYOffset">getTileYOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTotalFrame"><a href="ss2d.MovieClip.html#getTotalFrame">getTotalFrame</a></li>
+            
+                <li data-name="ss2d.MovieClip#getTransform"><a href="ss2d.MovieClip.html#getTransform">getTransform</a></li>
+            
+                <li data-name="ss2d.MovieClip#getUserData"><a href="ss2d.MovieClip.html#getUserData">getUserData</a></li>
+            
+                <li data-name="ss2d.MovieClip#getVisible"><a href="ss2d.MovieClip.html#getVisible">getVisible</a></li>
+            
+                <li data-name="ss2d.MovieClip#getWidth"><a href="ss2d.MovieClip.html#getWidth">getWidth</a></li>
+            
+                <li data-name="ss2d.MovieClip#getX"><a href="ss2d.MovieClip.html#getX">getX</a></li>
+            
+                <li data-name="ss2d.MovieClip#getY"><a href="ss2d.MovieClip.html#getY">getY</a></li>
+            
+                <li data-name="ss2d.MovieClip#gotoAndPlay"><a href="ss2d.MovieClip.html#gotoAndPlay">gotoAndPlay</a></li>
+            
+                <li data-name="ss2d.MovieClip#gotoAndStop"><a href="ss2d.MovieClip.html#gotoAndStop">gotoAndStop</a></li>
+            
+                <li data-name="ss2d.MovieClip#hitTestObject"><a href="ss2d.MovieClip.html#hitTestObject">hitTestObject</a></li>
+            
+                <li data-name="ss2d.MovieClip#hitTestPoint"><a href="ss2d.MovieClip.html#hitTestPoint">hitTestPoint</a></li>
+            
+                <li data-name="ss2d.MovieClip#hitTestRoundness"><a href="ss2d.MovieClip.html#hitTestRoundness">hitTestRoundness</a></li>
+            
+                <li data-name="ss2d.MovieClip#loop"><a href="ss2d.MovieClip.html#loop">loop</a></li>
+            
+                <li data-name="ss2d.MovieClip#paint"><a href="ss2d.MovieClip.html#paint">paint</a></li>
+            
+                <li data-name="ss2d.MovieClip#play"><a href="ss2d.MovieClip.html#play">play</a></li>
+            
+                <li data-name="ss2d.MovieClip#queryName"><a href="ss2d.MovieClip.html#queryName">queryName</a></li>
+            
+                <li data-name="ss2d.MovieClip#removeAllFrameScript"><a href="ss2d.MovieClip.html#removeAllFrameScript">removeAllFrameScript</a></li>
+            
+                <li data-name="ss2d.MovieClip#removeFrameScript"><a href="ss2d.MovieClip.html#removeFrameScript">removeFrameScript</a></li>
+            
+                <li data-name="ss2d.MovieClip#rollbackAnimation"><a href="ss2d.MovieClip.html#rollbackAnimation">rollbackAnimation</a></li>
+            
+                <li data-name="ss2d.MovieClip#setA"><a href="ss2d.MovieClip.html#setA">setA</a></li>
+            
+                <li data-name="ss2d.MovieClip#setAlpha"><a href="ss2d.MovieClip.html#setAlpha">setAlpha</a></li>
+            
+                <li data-name="ss2d.MovieClip#setAnimationSpeed"><a href="ss2d.MovieClip.html#setAnimationSpeed">setAnimationSpeed</a></li>
+            
+                <li data-name="ss2d.MovieClip#setB"><a href="ss2d.MovieClip.html#setB">setB</a></li>
+            
+                <li data-name="ss2d.MovieClip#setCenter"><a href="ss2d.MovieClip.html#setCenter">setCenter</a></li>
+            
+                <li data-name="ss2d.MovieClip#setColor"><a href="ss2d.MovieClip.html#setColor">setColor</a></li>
+            
+                <li data-name="ss2d.MovieClip#setForceCenter"><a href="ss2d.MovieClip.html#setForceCenter">setForceCenter</a></li>
+            
+                <li data-name="ss2d.MovieClip#setG"><a href="ss2d.MovieClip.html#setG">setG</a></li>
+            
+                <li data-name="ss2d.MovieClip#setHeight"><a href="ss2d.MovieClip.html#setHeight">setHeight</a></li>
+            
+                <li data-name="ss2d.MovieClip#setIsRedraw"><a href="ss2d.MovieClip.html#setIsRedraw">setIsRedraw</a></li>
+            
+                <li data-name="ss2d.MovieClip#setMouseEnabled"><a href="ss2d.MovieClip.html#setMouseEnabled">setMouseEnabled</a></li>
+            
+                <li data-name="ss2d.MovieClip#setParent"><a href="ss2d.MovieClip.html#setParent">setParent</a></li>
+            
+                <li data-name="ss2d.MovieClip#setR"><a href="ss2d.MovieClip.html#setR">setR</a></li>
+            
+                <li data-name="ss2d.MovieClip#setRotation"><a href="ss2d.MovieClip.html#setRotation">setRotation</a></li>
+            
+                <li data-name="ss2d.MovieClip#setScaleX"><a href="ss2d.MovieClip.html#setScaleX">setScaleX</a></li>
+            
+                <li data-name="ss2d.MovieClip#setScaleY"><a href="ss2d.MovieClip.html#setScaleY">setScaleY</a></li>
+            
+                <li data-name="ss2d.MovieClip#setSkewX"><a href="ss2d.MovieClip.html#setSkewX">setSkewX</a></li>
+            
+                <li data-name="ss2d.MovieClip#setSkewY"><a href="ss2d.MovieClip.html#setSkewY">setSkewY</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTextureID"><a href="ss2d.MovieClip.html#setTextureID">setTextureID</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileHeightOffset"><a href="ss2d.MovieClip.html#setTileHeightOffset">setTileHeightOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileId"><a href="ss2d.MovieClip.html#setTileId">setTileId</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileName"><a href="ss2d.MovieClip.html#setTileName">setTileName</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileWidthOffset"><a href="ss2d.MovieClip.html#setTileWidthOffset">setTileWidthOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileXOffset"><a href="ss2d.MovieClip.html#setTileXOffset">setTileXOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTileYOffset"><a href="ss2d.MovieClip.html#setTileYOffset">setTileYOffset</a></li>
+            
+                <li data-name="ss2d.MovieClip#setTransform"><a href="ss2d.MovieClip.html#setTransform">setTransform</a></li>
+            
+                <li data-name="ss2d.MovieClip#setUserData"><a href="ss2d.MovieClip.html#setUserData">setUserData</a></li>
+            
+                <li data-name="ss2d.MovieClip#setVertexColour"><a href="ss2d.MovieClip.html#setVertexColour">setVertexColour</a></li>
+            
+                <li data-name="ss2d.MovieClip#setVisible"><a href="ss2d.MovieClip.html#setVisible">setVisible</a></li>
+            
+                <li data-name="ss2d.MovieClip#setWidth"><a href="ss2d.MovieClip.html#setWidth">setWidth</a></li>
+            
+                <li data-name="ss2d.MovieClip#setX"><a href="ss2d.MovieClip.html#setX">setX</a></li>
+            
+                <li data-name="ss2d.MovieClip#setY"><a href="ss2d.MovieClip.html#setY">setY</a></li>
+            
+                <li data-name="ss2d.MovieClip#stop"><a href="ss2d.MovieClip.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ParticleEmittersCPU">
+            <span class="title">
+                <a href="ss2d.ParticleEmittersCPU.html">ss2d.ParticleEmittersCPU</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ParticleEmittersCPU#sendParticle"><a href="ss2d.ParticleEmittersCPU.html#sendParticle">sendParticle</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ParticleStyle">
+            <span class="title">
+                <a href="ss2d.ParticleStyle.html">ss2d.ParticleStyle</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ParticleStyle#a"><a href="ss2d.ParticleStyle.html#a">a</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#addA"><a href="ss2d.ParticleStyle.html#addA">addA</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#addB"><a href="ss2d.ParticleStyle.html#addB">addB</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#addG"><a href="ss2d.ParticleStyle.html#addG">addG</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#addR"><a href="ss2d.ParticleStyle.html#addR">addR</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#alphaValue"><a href="ss2d.ParticleStyle.html#alphaValue">alphaValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#angleValue"><a href="ss2d.ParticleStyle.html#angleValue">angleValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#b"><a href="ss2d.ParticleStyle.html#b">b</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#g"><a href="ss2d.ParticleStyle.html#g">g</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#gotoFrame"><a href="ss2d.ParticleStyle.html#gotoFrame">gotoFrame</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#loop"><a href="ss2d.ParticleStyle.html#loop">loop</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#r"><a href="ss2d.ParticleStyle.html#r">r</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#rotationRandom"><a href="ss2d.ParticleStyle.html#rotationRandom">rotationRandom</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#rotationValue"><a href="ss2d.ParticleStyle.html#rotationValue">rotationValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#scaleX"><a href="ss2d.ParticleStyle.html#scaleX">scaleX</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#scaleXValue"><a href="ss2d.ParticleStyle.html#scaleXValue">scaleXValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#scaleY"><a href="ss2d.ParticleStyle.html#scaleY">scaleY</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#scaleYValue"><a href="ss2d.ParticleStyle.html#scaleYValue">scaleYValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#scopeY"><a href="ss2d.ParticleStyle.html#scopeY">scopeY</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#speedValue"><a href="ss2d.ParticleStyle.html#speedValue">speedValue</a></li>
+            
+                <li data-name="ss2d.ParticleStyle#tileName"><a href="ss2d.ParticleStyle.html#tileName">tileName</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Point">
+            <span class="title">
+                <a href="ss2d.Point.html">ss2d.Point</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Point.distance"><a href="ss2d.Point.html#distance">distance</a></li>
+            
+                <li data-name="ss2d.Point.interpolate"><a href="ss2d.Point.html#interpolate">interpolate</a></li>
+            
+                <li data-name="ss2d.Point.polar"><a href="ss2d.Point.html#polar">polar</a></li>
+            
+                <li data-name="ss2d.Point#add"><a href="ss2d.Point.html#add">add</a></li>
+            
+                <li data-name="ss2d.Point#clone"><a href="ss2d.Point.html#clone">clone</a></li>
+            
+                <li data-name="ss2d.Point#equals"><a href="ss2d.Point.html#equals">equals</a></li>
+            
+                <li data-name="ss2d.Point#initialize"><a href="ss2d.Point.html#initialize">initialize</a></li>
+            
+                <li data-name="ss2d.Point#normalize"><a href="ss2d.Point.html#normalize">normalize</a></li>
+            
+                <li data-name="ss2d.Point#offset"><a href="ss2d.Point.html#offset">offset</a></li>
+            
+                <li data-name="ss2d.Point#subtract"><a href="ss2d.Point.html#subtract">subtract</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Quad">
+            <span class="title">
+                <a href="ss2d.Quad.html">ss2d.Quad</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Quad#isAnimationMatrix"><a href="ss2d.Quad.html#isAnimationMatrix">isAnimationMatrix</a></li>
+            
+                <li data-name="ss2d.Quad#isVertexColour"><a href="ss2d.Quad.html#isVertexColour">isVertexColour</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Quad#absCentre"><a href="ss2d.Quad.html#absCentre">absCentre</a></li>
+            
+                <li data-name="ss2d.Quad#addFrameScript"><a href="ss2d.Quad.html#addFrameScript">addFrameScript</a></li>
+            
+                <li data-name="ss2d.Quad#dispose"><a href="ss2d.Quad.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.Quad#frameDelay"><a href="ss2d.Quad.html#frameDelay">frameDelay</a></li>
+            
+                <li data-name="ss2d.Quad#getCenter"><a href="ss2d.Quad.html#getCenter">getCenter</a></li>
+            
+                <li data-name="ss2d.Quad#getCurrentFrame"><a href="ss2d.Quad.html#getCurrentFrame">getCurrentFrame</a></li>
+            
+                <li data-name="ss2d.Quad#getHeight"><a href="ss2d.Quad.html#getHeight">getHeight</a></li>
+            
+                <li data-name="ss2d.Quad#getIndexVertex"><a href="ss2d.Quad.html#getIndexVertex">getIndexVertex</a></li>
+            
+                <li data-name="ss2d.Quad#getScene"><a href="ss2d.Quad.html#getScene">getScene</a></li>
+            
+                <li data-name="ss2d.Quad#getTextureID"><a href="ss2d.Quad.html#getTextureID">getTextureID</a></li>
+            
+                <li data-name="ss2d.Quad#getTileHeightOffset"><a href="ss2d.Quad.html#getTileHeightOffset">getTileHeightOffset</a></li>
+            
+                <li data-name="ss2d.Quad#getTileWidthOffset"><a href="ss2d.Quad.html#getTileWidthOffset">getTileWidthOffset</a></li>
+            
+                <li data-name="ss2d.Quad#getTileXOffset"><a href="ss2d.Quad.html#getTileXOffset">getTileXOffset</a></li>
+            
+                <li data-name="ss2d.Quad#getTileYOffset"><a href="ss2d.Quad.html#getTileYOffset">getTileYOffset</a></li>
+            
+                <li data-name="ss2d.Quad#getTotalFrame"><a href="ss2d.Quad.html#getTotalFrame">getTotalFrame</a></li>
+            
+                <li data-name="ss2d.Quad#getTransform"><a href="ss2d.Quad.html#getTransform">getTransform</a></li>
+            
+                <li data-name="ss2d.Quad#getVertex"><a href="ss2d.Quad.html#getVertex">getVertex</a></li>
+            
+                <li data-name="ss2d.Quad#getWidth"><a href="ss2d.Quad.html#getWidth">getWidth</a></li>
+            
+                <li data-name="ss2d.Quad#gotoAndPlay"><a href="ss2d.Quad.html#gotoAndPlay">gotoAndPlay</a></li>
+            
+                <li data-name="ss2d.Quad#gotoAndStop"><a href="ss2d.Quad.html#gotoAndStop">gotoAndStop</a></li>
+            
+                <li data-name="ss2d.Quad#loop"><a href="ss2d.Quad.html#loop">loop</a></li>
+            
+                <li data-name="ss2d.Quad#play"><a href="ss2d.Quad.html#play">play</a></li>
+            
+                <li data-name="ss2d.Quad#removeAllFrameScript"><a href="ss2d.Quad.html#removeAllFrameScript">removeAllFrameScript</a></li>
+            
+                <li data-name="ss2d.Quad#removeFrameScript"><a href="ss2d.Quad.html#removeFrameScript">removeFrameScript</a></li>
+            
+                <li data-name="ss2d.Quad#rollbackAnimation"><a href="ss2d.Quad.html#rollbackAnimation">rollbackAnimation</a></li>
+            
+                <li data-name="ss2d.Quad#setAnimationSpeed"><a href="ss2d.Quad.html#setAnimationSpeed">setAnimationSpeed</a></li>
+            
+                <li data-name="ss2d.Quad#setCenter"><a href="ss2d.Quad.html#setCenter">setCenter</a></li>
+            
+                <li data-name="ss2d.Quad#setHeight"><a href="ss2d.Quad.html#setHeight">setHeight</a></li>
+            
+                <li data-name="ss2d.Quad#setID"><a href="ss2d.Quad.html#setID">setID</a></li>
+            
+                <li data-name="ss2d.Quad#setIndexVertex"><a href="ss2d.Quad.html#setIndexVertex">setIndexVertex</a></li>
+            
+                <li data-name="ss2d.Quad#setScene"><a href="ss2d.Quad.html#setScene">setScene</a></li>
+            
+                <li data-name="ss2d.Quad#setTextureID"><a href="ss2d.Quad.html#setTextureID">setTextureID</a></li>
+            
+                <li data-name="ss2d.Quad#setTileHeightOffset"><a href="ss2d.Quad.html#setTileHeightOffset">setTileHeightOffset</a></li>
+            
+                <li data-name="ss2d.Quad#setTileId"><a href="ss2d.Quad.html#setTileId">setTileId</a></li>
+            
+                <li data-name="ss2d.Quad#setTileName"><a href="ss2d.Quad.html#setTileName">setTileName</a></li>
+            
+                <li data-name="ss2d.Quad#setTileWidthOffset"><a href="ss2d.Quad.html#setTileWidthOffset">setTileWidthOffset</a></li>
+            
+                <li data-name="ss2d.Quad#setTileXOffset"><a href="ss2d.Quad.html#setTileXOffset">setTileXOffset</a></li>
+            
+                <li data-name="ss2d.Quad#setTileYOffset"><a href="ss2d.Quad.html#setTileYOffset">setTileYOffset</a></li>
+            
+                <li data-name="ss2d.Quad#setTransform"><a href="ss2d.Quad.html#setTransform">setTransform</a></li>
+            
+                <li data-name="ss2d.Quad#setVertexColour"><a href="ss2d.Quad.html#setVertexColour">setVertexColour</a></li>
+            
+                <li data-name="ss2d.Quad#setWidth"><a href="ss2d.Quad.html#setWidth">setWidth</a></li>
+            
+                <li data-name="ss2d.Quad#stop"><a href="ss2d.Quad.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Rectangle">
+            <span class="title">
+                <a href="ss2d.Rectangle.html">ss2d.Rectangle</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Rectangle#height"><a href="ss2d.Rectangle.html#height">height</a></li>
+            
+                <li data-name="ss2d.Rectangle#width"><a href="ss2d.Rectangle.html#width">width</a></li>
+            
+                <li data-name="ss2d.Rectangle#x"><a href="ss2d.Rectangle.html#x">x</a></li>
+            
+                <li data-name="ss2d.Rectangle#y"><a href="ss2d.Rectangle.html#y">y</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Rectangle#clone"><a href="ss2d.Rectangle.html#clone">clone</a></li>
+            
+                <li data-name="ss2d.Rectangle#contains"><a href="ss2d.Rectangle.html#contains">contains</a></li>
+            
+                <li data-name="ss2d.Rectangle#containsPoint"><a href="ss2d.Rectangle.html#containsPoint">containsPoint</a></li>
+            
+                <li data-name="ss2d.Rectangle#containsRect"><a href="ss2d.Rectangle.html#containsRect">containsRect</a></li>
+            
+                <li data-name="ss2d.Rectangle#equals"><a href="ss2d.Rectangle.html#equals">equals</a></li>
+            
+                <li data-name="ss2d.Rectangle#inflate"><a href="ss2d.Rectangle.html#inflate">inflate</a></li>
+            
+                <li data-name="ss2d.Rectangle#inflatePoint"><a href="ss2d.Rectangle.html#inflatePoint">inflatePoint</a></li>
+            
+                <li data-name="ss2d.Rectangle#intersection"><a href="ss2d.Rectangle.html#intersection">intersection</a></li>
+            
+                <li data-name="ss2d.Rectangle#intersects"><a href="ss2d.Rectangle.html#intersects">intersects</a></li>
+            
+                <li data-name="ss2d.Rectangle#isEmpty"><a href="ss2d.Rectangle.html#isEmpty">isEmpty</a></li>
+            
+                <li data-name="ss2d.Rectangle#offset"><a href="ss2d.Rectangle.html#offset">offset</a></li>
+            
+                <li data-name="ss2d.Rectangle#offsetPoint"><a href="ss2d.Rectangle.html#offsetPoint">offsetPoint</a></li>
+            
+                <li data-name="ss2d.Rectangle#setEmpty"><a href="ss2d.Rectangle.html#setEmpty">setEmpty</a></li>
+            
+                <li data-name="ss2d.Rectangle#union"><a href="ss2d.Rectangle.html#union">union</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Scene">
+            <span class="title">
+                <a href="ss2d.Scene.html">ss2d.Scene</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Scene#glScissorHeight"><a href="ss2d.Scene.html#glScissorHeight">glScissorHeight</a></li>
+            
+                <li data-name="ss2d.Scene#glScissorWidth"><a href="ss2d.Scene.html#glScissorWidth">glScissorWidth</a></li>
+            
+                <li data-name="ss2d.Scene#glScissorX"><a href="ss2d.Scene.html#glScissorX">glScissorX</a></li>
+            
+                <li data-name="ss2d.Scene#glScissorY"><a href="ss2d.Scene.html#glScissorY">glScissorY</a></li>
+            
+                <li data-name="ss2d.Scene#stage"><a href="ss2d.Scene.html#stage">stage</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Scene#applyQuad"><a href="ss2d.Scene.html#applyQuad">applyQuad</a></li>
+            
+                <li data-name="ss2d.Scene#blend"><a href="ss2d.Scene.html#blend">blend</a></li>
+            
+                <li data-name="ss2d.Scene#dispose"><a href="ss2d.Scene.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.Scene#getMouseEnabled"><a href="ss2d.Scene.html#getMouseEnabled">getMouseEnabled</a></li>
+            
+                <li data-name="ss2d.Scene#getShader"><a href="ss2d.Scene.html#getShader">getShader</a></li>
+            
+                <li data-name="ss2d.Scene#getTexture"><a href="ss2d.Scene.html#getTexture">getTexture</a></li>
+            
+                <li data-name="ss2d.Scene#hideQuad"><a href="ss2d.Scene.html#hideQuad">hideQuad</a></li>
+            
+                <li data-name="ss2d.Scene#hitTestPoint"><a href="ss2d.Scene.html#hitTestPoint">hitTestPoint</a></li>
+            
+                <li data-name="ss2d.Scene#paint"><a href="ss2d.Scene.html#paint">paint</a></li>
+            
+                <li data-name="ss2d.Scene#setMouseEnabled"><a href="ss2d.Scene.html#setMouseEnabled">setMouseEnabled</a></li>
+            
+                <li data-name="ss2d.Scene#setShader"><a href="ss2d.Scene.html#setShader">setShader</a></li>
+            
+                <li data-name="ss2d.Scene#setTexture"><a href="ss2d.Scene.html#setTexture">setTexture</a></li>
+            
+                <li data-name="ss2d.Scene#showQuad"><a href="ss2d.Scene.html#showQuad">showQuad</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderAbstract">
+            <span class="title">
+                <a href="ss2d.ShaderAbstract.html">ss2d.ShaderAbstract</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderAdvanced">
+            <span class="title">
+                <a href="ss2d.ShaderAdvanced.html">ss2d.ShaderAdvanced</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderBasis">
+            <span class="title">
+                <a href="ss2d.ShaderBasis.html">ss2d.ShaderBasis</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderBlur">
+            <span class="title">
+                <a href="ss2d.ShaderBlur.html">ss2d.ShaderBlur</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ShaderBlur#blurX"><a href="ss2d.ShaderBlur.html#blurX">blurX</a></li>
+            
+                <li data-name="ss2d.ShaderBlur#blurY"><a href="ss2d.ShaderBlur.html#blurY">blurY</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderFigure">
+            <span class="title">
+                <a href="ss2d.ShaderFigure.html">ss2d.ShaderFigure</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderFlame">
+            <span class="title">
+                <a href="ss2d.ShaderFlame.html">ss2d.ShaderFlame</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderFractal">
+            <span class="title">
+                <a href="ss2d.ShaderFractal.html">ss2d.ShaderFractal</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderGlass">
+            <span class="title">
+                <a href="ss2d.ShaderGlass.html">ss2d.ShaderGlass</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ShaderGlass#frequency"><a href="ss2d.ShaderGlass.html#frequency">frequency</a></li>
+            
+                <li data-name="ss2d.ShaderGlass#noisy"><a href="ss2d.ShaderGlass.html#noisy">noisy</a></li>
+            
+                <li data-name="ss2d.ShaderGlass#resolution"><a href="ss2d.ShaderGlass.html#resolution">resolution</a></li>
+            
+                <li data-name="ss2d.ShaderGlass#speed"><a href="ss2d.ShaderGlass.html#speed">speed</a></li>
+            
+                <li data-name="ss2d.ShaderGlass#timer"><a href="ss2d.ShaderGlass.html#timer">timer</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderGLSL">
+            <span class="title">
+                <a href="ss2d.ShaderGLSL.html">ss2d.ShaderGLSL</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderGray">
+            <span class="title">
+                <a href="ss2d.ShaderGray.html">ss2d.ShaderGray</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderHdr">
+            <span class="title">
+                <a href="ss2d.ShaderHdr.html">ss2d.ShaderHdr</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ShaderHdr#mLuminance"><a href="ss2d.ShaderHdr.html#mLuminance">mLuminance</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderHdr#initialize"><a href="ss2d.ShaderHdr.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderHeartbeat">
+            <span class="title">
+                <a href="ss2d.ShaderHeartbeat.html">ss2d.ShaderHeartbeat</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderHeartbeat#initialize"><a href="ss2d.ShaderHeartbeat.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderJoint">
+            <span class="title">
+                <a href="ss2d.ShaderJoint.html">ss2d.ShaderJoint</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderLaser">
+            <span class="title">
+                <a href="ss2d.ShaderLaser.html">ss2d.ShaderLaser</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderLaser#initialize"><a href="ss2d.ShaderLaser.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderLight">
+            <span class="title">
+                <a href="ss2d.ShaderLight.html">ss2d.ShaderLight</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ShaderLight#lightScale"><a href="ss2d.ShaderLight.html#lightScale">lightScale</a></li>
+            
+                <li data-name="ss2d.ShaderLight#lightX"><a href="ss2d.ShaderLight.html#lightX">lightX</a></li>
+            
+                <li data-name="ss2d.ShaderLight#lightY"><a href="ss2d.ShaderLight.html#lightY">lightY</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderLight#initialize"><a href="ss2d.ShaderLight.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderMosaic">
+            <span class="title">
+                <a href="ss2d.ShaderMosaic.html">ss2d.ShaderMosaic</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.ShaderMosaic#noisy"><a href="ss2d.ShaderMosaic.html#noisy">noisy</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderMosaic#initialize"><a href="ss2d.ShaderMosaic.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderNet">
+            <span class="title">
+                <a href="ss2d.ShaderNet.html">ss2d.ShaderNet</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderNet#initialize"><a href="ss2d.ShaderNet.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderQuick">
+            <span class="title">
+                <a href="ss2d.ShaderQuick.html">ss2d.ShaderQuick</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderQuick#initialize"><a href="ss2d.ShaderQuick.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.ShaderRelief">
+            <span class="title">
+                <a href="ss2d.ShaderRelief.html">ss2d.ShaderRelief</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.ShaderRelief#initialize"><a href="ss2d.ShaderRelief.html#initialize">initialize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.SoundControl">
+            <span class="title">
+                <a href="ss2d.SoundControl.html">ss2d.SoundControl</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.SoundControl#isPlaying"><a href="ss2d.SoundControl.html#isPlaying">isPlaying</a></li>
+            
+                <li data-name="ss2d.SoundControl#originalVolume"><a href="ss2d.SoundControl.html#originalVolume">originalVolume</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.SoundControl#dispose"><a href="ss2d.SoundControl.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.SoundControl#getVolume"><a href="ss2d.SoundControl.html#getVolume">getVolume</a></li>
+            
+                <li data-name="ss2d.SoundControl#mute"><a href="ss2d.SoundControl.html#mute">mute</a></li>
+            
+                <li data-name="ss2d.SoundControl#onCancel"><a href="ss2d.SoundControl.html#onCancel">onCancel</a></li>
+            
+                <li data-name="ss2d.SoundControl#onComplete"><a href="ss2d.SoundControl.html#onComplete">onComplete</a></li>
+            
+                <li data-name="ss2d.SoundControl#onError"><a href="ss2d.SoundControl.html#onError">onError</a></li>
+            
+                <li data-name="ss2d.SoundControl#onMute"><a href="ss2d.SoundControl.html#onMute">onMute</a></li>
+            
+                <li data-name="ss2d.SoundControl#onPause"><a href="ss2d.SoundControl.html#onPause">onPause</a></li>
+            
+                <li data-name="ss2d.SoundControl#onPlay"><a href="ss2d.SoundControl.html#onPlay">onPlay</a></li>
+            
+                <li data-name="ss2d.SoundControl#onStop"><a href="ss2d.SoundControl.html#onStop">onStop</a></li>
+            
+                <li data-name="ss2d.SoundControl#onUnMute"><a href="ss2d.SoundControl.html#onUnMute">onUnMute</a></li>
+            
+                <li data-name="ss2d.SoundControl#pause"><a href="ss2d.SoundControl.html#pause">pause</a></li>
+            
+                <li data-name="ss2d.SoundControl#play"><a href="ss2d.SoundControl.html#play">play</a></li>
+            
+                <li data-name="ss2d.SoundControl#setVolume"><a href="ss2d.SoundControl.html#setVolume">setVolume</a></li>
+            
+                <li data-name="ss2d.SoundControl#stop"><a href="ss2d.SoundControl.html#stop">stop</a></li>
+            
+                <li data-name="ss2d.SoundControl#toggleMute"><a href="ss2d.SoundControl.html#toggleMute">toggleMute</a></li>
+            
+                <li data-name="ss2d.SoundControl#togglePlay"><a href="ss2d.SoundControl.html#togglePlay">togglePlay</a></li>
+            
+                <li data-name="ss2d.SoundControl#unmute"><a href="ss2d.SoundControl.html#unmute">unmute</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.SoundItem">
+            <span class="title">
+                <a href="ss2d.SoundItem.html">ss2d.SoundItem</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.SoundItem#delay"><a href="ss2d.SoundItem.html#delay">delay</a></li>
+            
+                <li data-name="ss2d.SoundItem#lastPosition"><a href="ss2d.SoundItem.html#lastPosition">lastPosition</a></li>
+            
+                <li data-name="ss2d.SoundItem#loops"><a href="ss2d.SoundItem.html#loops">loops</a></li>
+            
+                <li data-name="ss2d.SoundItem#sound"><a href="ss2d.SoundItem.html#sound">sound</a></li>
+            
+                <li data-name="ss2d.SoundItem#url"><a href="ss2d.SoundItem.html#url">url</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.SoundItem#cancel"><a href="ss2d.SoundItem.html#cancel">cancel</a></li>
+            
+                <li data-name="ss2d.SoundItem#clone"><a href="ss2d.SoundItem.html#clone">clone</a></li>
+            
+                <li data-name="ss2d.SoundItem#dispose"><a href="ss2d.SoundItem.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.SoundItem#getLength"><a href="ss2d.SoundItem.html#getLength">getLength</a></li>
+            
+                <li data-name="ss2d.SoundItem#getPosition"><a href="ss2d.SoundItem.html#getPosition">getPosition</a></li>
+            
+                <li data-name="ss2d.SoundItem#getPositionPercent"><a href="ss2d.SoundItem.html#getPositionPercent">getPositionPercent</a></li>
+            
+                <li data-name="ss2d.SoundItem#getVolume"><a href="ss2d.SoundItem.html#getVolume">getVolume</a></li>
+            
+                <li data-name="ss2d.SoundItem#load"><a href="ss2d.SoundItem.html#load">load</a></li>
+            
+                <li data-name="ss2d.SoundItem#onLoad"><a href="ss2d.SoundItem.html#onLoad">onLoad</a></li>
+            
+                <li data-name="ss2d.SoundItem#pause"><a href="ss2d.SoundItem.html#pause">pause</a></li>
+            
+                <li data-name="ss2d.SoundItem#play"><a href="ss2d.SoundItem.html#play">play</a></li>
+            
+                <li data-name="ss2d.SoundItem#setPosition"><a href="ss2d.SoundItem.html#setPosition">setPosition</a></li>
+            
+                <li data-name="ss2d.SoundItem#setPositionPercent"><a href="ss2d.SoundItem.html#setPositionPercent">setPositionPercent</a></li>
+            
+                <li data-name="ss2d.SoundItem#setVolume"><a href="ss2d.SoundItem.html#setVolume">setVolume</a></li>
+            
+                <li data-name="ss2d.SoundItem#stop"><a href="ss2d.SoundItem.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.SoundManager">
+            <span class="title">
+                <a href="ss2d.SoundManager.html">ss2d.SoundManager</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.SoundManager#add"><a href="ss2d.SoundManager.html#add">add</a></li>
+            
+                <li data-name="ss2d.SoundManager#dispose"><a href="ss2d.SoundManager.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.SoundManager#group"><a href="ss2d.SoundManager.html#group">group</a></li>
+            
+                <li data-name="ss2d.SoundManager#item"><a href="ss2d.SoundManager.html#item">item</a></li>
+            
+                <li data-name="ss2d.SoundManager#length"><a href="ss2d.SoundManager.html#length">length</a></li>
+            
+                <li data-name="ss2d.SoundManager#match"><a href="ss2d.SoundManager.html#match">match</a></li>
+            
+                <li data-name="ss2d.SoundManager#pause"><a href="ss2d.SoundManager.html#pause">pause</a></li>
+            
+                <li data-name="ss2d.SoundManager#play"><a href="ss2d.SoundManager.html#play">play</a></li>
+            
+                <li data-name="ss2d.SoundManager#remove"><a href="ss2d.SoundManager.html#remove">remove</a></li>
+            
+                <li data-name="ss2d.SoundManager#stop"><a href="ss2d.SoundManager.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Sprite">
+            <span class="title">
+                <a href="ss2d.Sprite.html">ss2d.Sprite</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Sprite#addChild"><a href="ss2d.Sprite.html#addChild">addChild</a></li>
+            
+                <li data-name="ss2d.Sprite#dispose"><a href="ss2d.Sprite.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.Sprite#getHeight"><a href="ss2d.Sprite.html#getHeight">getHeight</a></li>
+            
+                <li data-name="ss2d.Sprite#getMouseEnabled"><a href="ss2d.Sprite.html#getMouseEnabled">getMouseEnabled</a></li>
+            
+                <li data-name="ss2d.Sprite#getParent"><a href="ss2d.Sprite.html#getParent">getParent</a></li>
+            
+                <li data-name="ss2d.Sprite#getRotation"><a href="ss2d.Sprite.html#getRotation">getRotation</a></li>
+            
+                <li data-name="ss2d.Sprite#getScaleX"><a href="ss2d.Sprite.html#getScaleX">getScaleX</a></li>
+            
+                <li data-name="ss2d.Sprite#getScaleY"><a href="ss2d.Sprite.html#getScaleY">getScaleY</a></li>
+            
+                <li data-name="ss2d.Sprite#getSkewX"><a href="ss2d.Sprite.html#getSkewX">getSkewX</a></li>
+            
+                <li data-name="ss2d.Sprite#getSkewY"><a href="ss2d.Sprite.html#getSkewY">getSkewY</a></li>
+            
+                <li data-name="ss2d.Sprite#getUserData"><a href="ss2d.Sprite.html#getUserData">getUserData</a></li>
+            
+                <li data-name="ss2d.Sprite#getVisible"><a href="ss2d.Sprite.html#getVisible">getVisible</a></li>
+            
+                <li data-name="ss2d.Sprite#getWidth"><a href="ss2d.Sprite.html#getWidth">getWidth</a></li>
+            
+                <li data-name="ss2d.Sprite#getX"><a href="ss2d.Sprite.html#getX">getX</a></li>
+            
+                <li data-name="ss2d.Sprite#getY"><a href="ss2d.Sprite.html#getY">getY</a></li>
+            
+                <li data-name="ss2d.Sprite#paint"><a href="ss2d.Sprite.html#paint">paint</a></li>
+            
+                <li data-name="ss2d.Sprite#removeChild"><a href="ss2d.Sprite.html#removeChild">removeChild</a></li>
+            
+                <li data-name="ss2d.Sprite#setHeight"><a href="ss2d.Sprite.html#setHeight">setHeight</a></li>
+            
+                <li data-name="ss2d.Sprite#setMouseEnabled"><a href="ss2d.Sprite.html#setMouseEnabled">setMouseEnabled</a></li>
+            
+                <li data-name="ss2d.Sprite#setParent"><a href="ss2d.Sprite.html#setParent">setParent</a></li>
+            
+                <li data-name="ss2d.Sprite#setRotation"><a href="ss2d.Sprite.html#setRotation">setRotation</a></li>
+            
+                <li data-name="ss2d.Sprite#setScaleX"><a href="ss2d.Sprite.html#setScaleX">setScaleX</a></li>
+            
+                <li data-name="ss2d.Sprite#setScaleY"><a href="ss2d.Sprite.html#setScaleY">setScaleY</a></li>
+            
+                <li data-name="ss2d.Sprite#setSkewX"><a href="ss2d.Sprite.html#setSkewX">setSkewX</a></li>
+            
+                <li data-name="ss2d.Sprite#setSkewY"><a href="ss2d.Sprite.html#setSkewY">setSkewY</a></li>
+            
+                <li data-name="ss2d.Sprite#setUserData"><a href="ss2d.Sprite.html#setUserData">setUserData</a></li>
+            
+                <li data-name="ss2d.Sprite#setVisible"><a href="ss2d.Sprite.html#setVisible">setVisible</a></li>
+            
+                <li data-name="ss2d.Sprite#setWidth"><a href="ss2d.Sprite.html#setWidth">setWidth</a></li>
+            
+                <li data-name="ss2d.Sprite#setX"><a href="ss2d.Sprite.html#setX">setX</a></li>
+            
+                <li data-name="ss2d.Sprite#setY"><a href="ss2d.Sprite.html#setY">setY</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Stage2D">
+            <span class="title">
+                <a href="ss2d.Stage2D.html">ss2d.Stage2D</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Stage2D.a"><a href="ss2d.Stage2D.html#a">a</a></li>
+            
+                <li data-name="ss2d.Stage2D.b"><a href="ss2d.Stage2D.html#b">b</a></li>
+            
+                <li data-name="ss2d.Stage2D.canvas"><a href="ss2d.Stage2D.html#canvas">canvas</a></li>
+            
+                <li data-name="ss2d.Stage2D.context"><a href="ss2d.Stage2D.html#context">context</a></li>
+            
+                <li data-name="ss2d.Stage2D.fps"><a href="ss2d.Stage2D.html#fps">fps</a></li>
+            
+                <li data-name="ss2d.Stage2D.g"><a href="ss2d.Stage2D.html#g">g</a></li>
+            
+                <li data-name="ss2d.Stage2D.gl"><a href="ss2d.Stage2D.html#gl">gl</a></li>
+            
+                <li data-name="ss2d.Stage2D.mouseX"><a href="ss2d.Stage2D.html#mouseX">mouseX</a></li>
+            
+                <li data-name="ss2d.Stage2D.mouseY"><a href="ss2d.Stage2D.html#mouseY">mouseY</a></li>
+            
+                <li data-name="ss2d.Stage2D.ovMatrix"><a href="ss2d.Stage2D.html#ovMatrix">ovMatrix</a></li>
+            
+                <li data-name="ss2d.Stage2D.r"><a href="ss2d.Stage2D.html#r">r</a></li>
+            
+                <li data-name="ss2d.Stage2D.rttFramebuffer"><a href="ss2d.Stage2D.html#rttFramebuffer">rttFramebuffer</a></li>
+            
+                <li data-name="ss2d.Stage2D.rttTexture"><a href="ss2d.Stage2D.html#rttTexture">rttTexture</a></li>
+            
+                <li data-name="ss2d.Stage2D.shader"><a href="ss2d.Stage2D.html#shader">shader</a></li>
+            
+                <li data-name="ss2d.Stage2D.stageHeight"><a href="ss2d.Stage2D.html#stageHeight">stageHeight</a></li>
+            
+                <li data-name="ss2d.Stage2D.stageWidth"><a href="ss2d.Stage2D.html#stageWidth">stageWidth</a></li>
+            
+                <li data-name="ss2d.Stage2D#displayerlist"><a href="ss2d.Stage2D.html#displayerlist">displayerlist</a></li>
+            
+                <li data-name="ss2d.Stage2D#frameBufflist"><a href="ss2d.Stage2D.html#frameBufflist">frameBufflist</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Stage2D#addChild"><a href="ss2d.Stage2D.html#addChild">addChild</a></li>
+            
+                <li data-name="ss2d.Stage2D#addFrameBuffer"><a href="ss2d.Stage2D.html#addFrameBuffer">addFrameBuffer</a></li>
+            
+                <li data-name="ss2d.Stage2D#onDrawFrame"><a href="ss2d.Stage2D.html#onDrawFrame">onDrawFrame</a></li>
+            
+                <li data-name="ss2d.Stage2D#removeChild"><a href="ss2d.Stage2D.html#removeChild">removeChild</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.TextField">
+            <span class="title">
+                <a href="ss2d.TextField.html">ss2d.TextField</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.TextField#getAlpha"><a href="ss2d.TextField.html#getAlpha">getAlpha</a></li>
+            
+                <li data-name="ss2d.TextField#getFontSize"><a href="ss2d.TextField.html#getFontSize">getFontSize</a></li>
+            
+                <li data-name="ss2d.TextField#getText"><a href="ss2d.TextField.html#getText">getText</a></li>
+            
+                <li data-name="ss2d.TextField#getTypefac"><a href="ss2d.TextField.html#getTypefac">getTypefac</a></li>
+            
+                <li data-name="ss2d.TextField#setAlpha"><a href="ss2d.TextField.html#setAlpha">setAlpha</a></li>
+            
+                <li data-name="ss2d.TextField#setColor"><a href="ss2d.TextField.html#setColor">setColor</a></li>
+            
+                <li data-name="ss2d.TextField#setFontSize"><a href="ss2d.TextField.html#setFontSize">setFontSize</a></li>
+            
+                <li data-name="ss2d.TextField#setText"><a href="ss2d.TextField.html#setText">setText</a></li>
+            
+                <li data-name="ss2d.TextField#setTypefac"><a href="ss2d.TextField.html#setTypefac">setTypefac</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.Texture">
+            <span class="title">
+                <a href="ss2d.Texture.html">ss2d.Texture</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.Texture#height"><a href="ss2d.Texture.html#height">height</a></li>
+            
+                <li data-name="ss2d.Texture#quadResource"><a href="ss2d.Texture.html#quadResource">quadResource</a></li>
+            
+                <li data-name="ss2d.Texture#texture"><a href="ss2d.Texture.html#texture">texture</a></li>
+            
+                <li data-name="ss2d.Texture#width"><a href="ss2d.Texture.html#width">width</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ss2d.Texture#dispose"><a href="ss2d.Texture.html#dispose">dispose</a></li>
+            
+                <li data-name="ss2d.Texture#loadXml"><a href="ss2d.Texture.html#loadXml">loadXml</a></li>
+            
+                <li data-name="ss2d.Texture#newBitmap"><a href="ss2d.Texture.html#newBitmap">newBitmap</a></li>
+            
+                <li data-name="ss2d.Texture#newCanvas"><a href="ss2d.Texture.html#newCanvas">newCanvas</a></li>
+            
+                <li data-name="ss2d.Texture#newSprite"><a href="ss2d.Texture.html#newSprite">newSprite</a></li>
+            
+                <li data-name="ss2d.Texture#newTexture"><a href="ss2d.Texture.html#newTexture">newTexture</a></li>
+            
+                <li data-name="ss2d.Texture#transformTextureBuffer"><a href="ss2d.Texture.html#transformTextureBuffer">transformTextureBuffer</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.TextureStyle">
+            <span class="title">
+                <a href="ss2d.TextureStyle.html">ss2d.TextureStyle</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.TextureStyle#xSampling"><a href="ss2d.TextureStyle.html#xSampling">xSampling</a></li>
+            
+                <li data-name="ss2d.TextureStyle#xTile"><a href="ss2d.TextureStyle.html#xTile">xTile</a></li>
+            
+                <li data-name="ss2d.TextureStyle#ySampling"><a href="ss2d.TextureStyle.html#ySampling">ySampling</a></li>
+            
+                <li data-name="ss2d.TextureStyle#yTile"><a href="ss2d.TextureStyle.html#yTile">yTile</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ss2d.TimerEvent">
+            <span class="title">
+                <a href="ss2d.TimerEvent.html">ss2d.TimerEvent</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="ss2d.TimerEvent.TIMER"><a href="ss2d.TimerEvent.html#TIMER">TIMER</a></li>
+            
+                <li data-name="ss2d.TimerEvent.TIMER_COMPLETE"><a href="ss2d.TimerEvent.html#TIMER_COMPLETE">TIMER_COMPLETE</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="LoadQueue.js.html">Source: LoadQueue.js</h1>
+        
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>﻿/**
+ * LoadQueue.js
+ *
+ * HTML5游戏开发者社区 QQ群:326492427 127759656 Email:siriushtml5@gmail.com
+ * Copyright (c) 2011 Sirius2D www.Sirius2D.com www.html5gamedev.org
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+(function()
+{
+    /**
+     * 队列加载器 用于加载多个游戏用资源。
+     * &lt;br/>演示地址:http://sirius2d.com/demos/d_1/
+     * @type {Class}
+     */
+    ss2d.LoadQueue = Class
+    (
+        /** @lends ss2d.LoadQueue.prototype */
+        {
+            Extends:ss2d.AbstractLoader,
+
+            ////////////////////////////////////////////////////////////////////////////
+            //  static  property
+            ////////////////////////////////////////////////////////////////////////////
+
+            STATIC:
+            {
+                LOAD_TIMEOUT : 0,
+                BINARY : "binary",
+                CSS : "css",
+                IMAGE : "image",
+                JAVASCRIPT : "javascript",
+                JSON : "json",
+                JSONP : "jsonp",
+                MANIFEST : "manifest",
+                SOUND : "sound",
+                SVG : "svg",
+                TEXT : "text",
+                XML : "xml",
+                HTML: "html",
+                POST : 'POST',
+                GET : 'GET',
+                loadTimeout : 8000,
+
+                isBinary : function(type)
+                {
+                    switch (type)
+                    {
+                        case this.IMAGE:
+                        case this.BINARY:
+                            return true;
+                        default:
+                            return false;
+                    }
+                },
+
+                isText : function(type)
+                {
+                    switch (type)
+                    {
+                        case this.TEXT:
+                        case this.JSON:
+                        case this.MANIFEST:
+                        case this.XML:
+                        case this.HTML:
+                        case this.CSS:
+                        case this.SVG:
+                        case this.JAVASCRIPT:
+                            return true;
+                        default:
+                            return false;
+                    }
+                }
+            },
+
+            //////////////////////////////////////////////////////////////////////////
+            //  private property
+            //////////////////////////////////////////////////////////////////////////
+
+            _basePath : null,
+            _crossOrigin : "",
+            _typeCallbacks : null,
+            _extensionCallbacks : null,
+            _loadStartWasDispatched : false,
+            _maxConnections : 1,
+            _currentlyLoadingScript : null,
+            _currentLoads : null,
+            _loadQueue : null,
+            _loadQueueBackup : null,
+            _loadItemsById : null,
+            _loadItemsBySrc : null,
+            _loadedResults : null,
+            _loadedRawResults : null,
+            _numItems : 0,
+            _numItemsLoaded : 0,
+            _scriptOrder : null,
+            _loadedScripts : null,
+            _paused : false,
+
+            //////////////////////////////////////////////////////////////////////////
+            //  public property
+            //////////////////////////////////////////////////////////////////////////
+
+            useXHR : true,
+            stopOnError : false,
+            maintainScriptOrder : true,
+            next : null,
+
+            ////////////////////////////////////////////////////////////////////////////
+            //  constructor
+            ////////////////////////////////////////////////////////////////////////////
+
+            initialize : function(useXHR, basePath, crossOrigin)
+            {
+                this._numItems = this._numItemsLoaded = 0;
+                this._paused = false;
+                this._loadStartWasDispatched = false;
+
+                this._currentLoads = [];
+                this._loadQueue = [];
+                this._loadQueueBackup = [];
+                this._scriptOrder = [];
+                this._loadedScripts = [];
+                this._loadItemsById = {};
+                this._loadItemsBySrc = {};
+                this._loadedResults = {};
+                this._loadedRawResults = {};
+
+                // Callbacks for plugins
+                this._typeCallbacks = {};
+                this._extensionCallbacks = {};
+
+                this._basePath = basePath;
+                this.setUseXHR(useXHR);
+                this._crossOrigin = (crossOrigin === true)
+                    ? "Anonymous" : (crossOrigin === false || crossOrigin == null)
+                    ? "" : crossOrigin;
+            },
+
+            setUseXHR : function(value)
+            {
+                // Determine if we can use XHR. XHR defaults to TRUE, but the browser may not support it.
+                //TODO: Should we be checking for the other XHR types? Might have to do a try/catch on the different types similar to createXHR.
+                this.useXHR = (value != false && window.XMLHttpRequest != null);
+                return this.useXHR;
+            },
+
+            removeAll : function()
+            {
+                this.remove();
+            },
+
+            remove : function(idsOrUrls)
+            {
+                var args = null;
+
+                if (idsOrUrls && !(idsOrUrls instanceof Array))
+                {
+                    args = [idsOrUrls];
+                }
+                else if (idsOrUrls)
+                {
+                    args = idsOrUrls;
+                }
+                else if (arguments.length > 0)
+                {
+                    return;
+                }
+
+                var itemsWereRemoved = false;
+
+                // Destroy everything
+                if (!args)
+                {
+                    this.close();
+                    for (var n in this._loadItemsById)
+                    {
+                        this._disposeItem(this._loadItemsById[n]);
+                    }
+                    this.init(this.useXHR);
+
+                    // Remove specific items
+                }
+                else
+                {
+                    while (args.length)
+                    {
+                        var item = args.pop();
+                        var r = this.getResult(item);
+
+                        //Remove from the main load Queue
+                        for (i = this._loadQueue.length-1;i>=0;i--)
+                        {
+                            loadItem = this._loadQueue[i].getItem();
+                            if (loadItem.id == item || loadItem.src == item)
+                            {
+                                this._loadQueue.splice(i,1)[0].cancel();
+                                break;
+                            }
+                        }
+
+                        //Remove from the backup queue
+                        for (i = this._loadQueueBackup.length-1;i>=0;i--)
+                        {
+                            loadItem = this._loadQueueBackup[i].getItem();
+                            if (loadItem.id == item || loadItem.src == item)
+                            {
+                                this._loadQueueBackup.splice(i,1)[0].cancel();
+                                break;
+                            }
+                        }
+
+                        if (r)
+                        {
+                            delete this._loadItemsById[r.id];
+                            delete this._loadItemsBySrc[r.src];
+                            this._disposeItem(r);
+                        }
+                        else
+                        {
+                            for (var i=this._currentLoads.length-1;i>=0;i--)
+                            {
+                                var loadItem = this._currentLoads[i].getItem();
+                                if (loadItem.id == item || loadItem.src == item)
+                                {
+                                    this._currentLoads.splice(i,1)[0].cancel();
+                                    itemsWereRemoved = true;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    // If this was called during a load, try to load the next item.
+                    if (itemsWereRemoved)
+                    {
+                        this._loadNext();
+                    }
+                }
+            },
+
+            reset : function()
+            {
+                this.close();
+                for (var n in this._loadItemsById)
+                {
+                    this._disposeItem(this._loadItemsById[n]);
+                }
+
+                //Reset the queue to its start state
+                var a = [];
+                for (var i=0, l=this._loadQueueBackup.length; i&lt;l; i++)
+                {
+                    a.push(this._loadQueueBackup[i].getItem());
+                }
+
+                this.loadManifest(a, false);
+            },
+
+            installPlugin : function(plugin)
+            {
+                if (plugin == null || plugin.getPreloadHandlers == null) { return; }
+                var map = plugin.getPreloadHandlers();
+                map.scope = plugin;
+
+                if (map.types != null)
+                {
+                    for (var i=0, l=map.types.length; i&lt;l; i++)
+                    {
+                        this._typeCallbacks[map.types[i]] = map;
+                    }
+                }
+                if (map.extensions != null)
+                {
+                    for (i=0, l=map.extensions.length; i&lt;l; i++)
+                    {
+                        this._extensionCallbacks[map.extensions[i]] = map;
+                    }
+                }
+            },
+
+            setMaxConnections : function (value)
+            {
+                this._maxConnections = value;
+                if (!this._paused && this._loadQueue.length > 0)
+                {
+                    this._loadNext();
+                }
+            },
+
+            loadFile : function(file, loadNow, basePath)
+            {
+                if (file == null)
+                {
+                    var event = new ss2d.Event("error");
+                    event.text = "PRELOAD_NO_FILE";
+                    this._sendError(event);
+                    return;
+                }
+                this._addItem(file, null, basePath);
+
+                if (loadNow !== false)
+                {
+                    this.setPaused(false);
+                }
+                else
+                {
+                    this.setPaused(true);
+                }
+            },
+
+            /**
+             * 载入加载队列
+             * @param manifest 加载队列
+             * @param loadNow
+             * @param basePath
+             */
+            loadManifest : function(manifest, loadNow, basePath)
+            {
+                var fileList = null;
+                var path = null;
+
+                // Array-based list of items
+                if (manifest instanceof Array)
+                {
+                    if (manifest.length == 0)
+                    {
+                        var event = new ss2d.Event("error");
+                        event.text = "PRELOAD_MANIFEST_EMPTY";
+                        this._sendError(event);
+                        return;
+                    }
+                    fileList = manifest;
+
+                    // String-based. Only file manifests can be specified this way. Any other types will cause an error when loaded.
+                }
+                else if (typeof(manifest) === "string")
+                {
+                    fileList = [{
+                        src: manifest,
+                        type: ss2d.LoadQueue.MANIFEST
+                    }];
+
+                }
+                else if (typeof(manifest) == "object")
+                {
+
+                    // An object that defines a manifest path
+                    if (manifest.src !== undefined)
+                    {
+                        if (manifest.type == null)
+                        {
+                            manifest.type = ss2d.LoadQueue.MANIFEST;
+                        }
+                        else if (manifest.type != ss2d.LoadQueue.MANIFEST)
+                        {
+                            var event = new ss2d.Event("error");
+                            event.text = "PRELOAD_MANIFEST_ERROR";
+                            this._sendError(event);
+                        }
+                        fileList = [manifest];
+                        // An object that defines a manifest
+                    }
+                    else if (manifest.manifest !== undefined)
+                    {
+                        fileList = manifest.manifest;
+                        path = manifest.path;
+                    }
+                    // Unsupported. This will throw an error.
+                }
+                else
+                {
+                    var event = new ss2d.Event("error");
+                    event.text = "PRELOAD_MANIFEST_NULL";
+                    this._sendError(event);
+                    return;
+                }
+
+                for (var i=0, l=fileList.length; i&lt;l; i++)
+                {
+                    this._addItem(fileList[i], path, basePath);
+                }
+
+                if (loadNow !== false)
+                {
+                    this.setPaused(false);
+                }
+                else
+                {
+                    this.setPaused(true);
+                }
+            },
+
+            load : function()
+            {
+                this.setPaused(false);
+            },
+
+            getItem : function(value)
+            {
+                return this._loadItemsById[value] || this._loadItemsBySrc[value];
+            },
+
+            getResult : function(value, rawResult)
+            {
+                var item = this._loadItemsById[value] || this._loadItemsBySrc[value];
+                if (item == null) { return null; }
+                var id = item.id;
+                if (rawResult && this._loadedRawResults[id])
+                {
+                    return this._loadedRawResults[id];
+                }
+                return this._loadedResults[id];
+            },
+
+            setPaused : function(value)
+            {
+                this._paused = value;
+                if (!this._paused)
+                {
+                    this._loadNext();
+                }
+            },
+
+            close : function()
+            {
+                while (this._currentLoads.length)
+                {
+                    this._currentLoads.pop().cancel();
+                }
+                this._scriptOrder.length = 0;
+                this._loadedScripts.length = 0;
+                this.loadStartWasDispatched = false;
+            },
+
+            _addItem : function(value, path, basePath)
+            {
+                var item = this._createLoadItem(value, path, basePath); // basePath and manifest path are added to the src.
+                if (item == null) { return; } // Sometimes plugins or types should be skipped.
+                var loader = this._createLoader(item);
+                if (loader != null)
+                {
+                    this._loadQueue.push(loader);
+                    this._loadQueueBackup.push(loader);
+
+                    this._numItems++;
+                    this._updateProgress();
+
+                    // Only worry about script order when using XHR to load scripts. Tags are only loading one at a time.
+                    if (this.maintainScriptOrder
+                        && item.type == ss2d.LoadQueue.JAVASCRIPT
+                        && loader instanceof ss2d.XHRLoader)
+                    {
+                        this._scriptOrder.push(item);
+                        this._loadedScripts.push(null);
+                    }
+                }
+            },
+
+            _createLoadItem : function(value, path, basePath)
+            {
+                var item = null;
+                // Create/modify a load item
+                switch(typeof(value))
+                {
+                    case "string":
+                        item = { src: value };
+                        break;
+                    case "object":
+                        if (window.HTMLAudioElement && value instanceof window.HTMLAudioElement)
+                        {
+                            item = {
+                                tag: value,
+                                src: item.tag.src,
+                                type: ss2d.LoadQueue.SOUND
+                            };
+                        }
+                        else
+                        {
+                            item = value;
+                        }
+                        break;
+                    default:
+                        return null;
+                }
+
+                // Determine Extension, etc.
+                var match = this._parseURI(item.src);
+                if (match != null) { item.ext = match[6]; }
+                if (item.type == null)
+                {
+                    item.type = this._getTypeByExtension(item.ext);
+                }
+
+                // Inject path & basePath
+                var bp = ""; // Store the generated basePath
+                var useBasePath = basePath || this._basePath;
+                var autoId = item.src;
+                if (match && match[1] == null && match[3] == null)
+                {
+                    if (path)
+                    {
+                        bp = path;
+                        var pathMatch = this._parsePath(path);
+                        autoId = path + autoId;
+                        // Also append basePath
+                        if (useBasePath != null && pathMatch && pathMatch[1] == null && pathMatch[2] == null) {
+                            bp = useBasePath + bp;
+                        }
+                    }
+                    else if (useBasePath != null)
+                    {
+                        bp = useBasePath;
+                    }
+                }
+                item.src = bp + item.src;
+                item.path = bp;
+
+                if (item.type == ss2d.LoadQueue.JSON || item.type == ss2d.LoadQueue.MANIFEST)
+                {
+                    item._loadAsJSONP = (item.callback != null);
+                }
+
+                if (item.type == ss2d.LoadQueue.JSONP && item.callback == null)
+                {
+                    throw new Error('callback is required for loading JSONP requests.');
+                }
+
+                // Create a tag for the item. This ensures there is something to either load with or populate when finished.
+                if (item.tag === undefined || item.tag === null)
+                {
+                    item.tag = this._createTag(item);
+                }
+
+                // If there's no id, set one now.
+                if (item.id === undefined || item.id === null || item.id === "") {
+                    item.id = autoId;
+                }
+
+                // Give plugins a chance to modify the loadItem:
+                var customHandler = this._typeCallbacks[item.type] || this._extensionCallbacks[item.ext];
+                if (customHandler)
+                {
+                    // Plugins are now passed both the full source, as well as a combined path+basePath (appropriately)
+                    var result = customHandler.callback.call(customHandler.scope, item.src, item.type, item.id, item.data,
+                        bp, this);
+                    // NOTE: BasePath argument is deprecated. We pass it to plugins.allow SoundJS to modify the file. to sanymore. The full path is sent to the plugin
+
+                    // The plugin will handle the load, or has canceled it. Ignore it.
+                    if (result === false)
+                    {
+                        return null;
+
+                        // Load as normal:
+                    }
+                    else if (result === true)
+                    {
+                        // Do Nothing
+
+                        // Result is a loader class:
+                    }
+                    else
+                    {
+                        if (result.src != null) { item.src = result.src; }
+                        if (result.id != null) { item.id = result.id; } // TODO: Evaluate this. An overridden ID could be problematic
+                        if (result.tag != null) { // Assumes that the returned tag either has a load method or a src setter.
+                            item.tag = result.tag;
+                        }
+                        if (result.completeHandler != null) { item.completeHandler = result.completeHandler; }
+
+                        // Allow type overriding:
+                        if (result.type) { item.type = result.type; }
+
+                        // Update the extension in case the type changed:
+                        match = this._parseURI(item.src);
+                        if (match != null && match[6] != null) {
+                            item.ext = match[6].toLowerCase();
+                        }
+                    }
+                }
+
+                // Store the item for lookup. This also helps clean-up later.
+                this._loadItemsById[item.id] = item;
+                this._loadItemsBySrc[item.src] = item;
+
+                return item;
+            },
+
+            _createLoader : function(item)
+            {
+                // Initially, try and use the provided/supported XHR mode:
+                var useXHR = this.useXHR;
+
+                // Determine the XHR usage overrides:
+                switch (item.type)
+                {
+                    case ss2d.LoadQueue.JSON:
+                    case ss2d.LoadQueue.MANIFEST:
+                        useXHR = !item._loadAsJSONP;
+                        break;
+                    case ss2d.LoadQueue.XML:
+                    case ss2d.LoadQueue.TEXT:
+                        useXHR = true; // Always use XHR2 with text/XML
+                        break;
+                    case ss2d.LoadQueue.SOUND:
+                    case ss2d.LoadQueue.JSONP:
+                        useXHR = false; // Never load audio using XHR. WebAudio will provide its own loader.
+                        break;
+                    case null:
+                        return null;
+                    // Note: IMAGE, CSS, SCRIPT, SVG can all use TAGS or XHR.
+                }
+
+                if (useXHR)
+                {
+                    return new ss2d.XHRLoader(item, this._crossOrigin);
+                }
+                else
+                {
+                    return new ss2d.TagLoader(item);
+                }
+            },
+
+            _loadNext : function()
+            {
+                if (this._paused) { return; }
+
+                // Only dispatch loadstart event when the first file is loaded.
+                if (!this._loadStartWasDispatched)
+                {
+                    this._sendLoadStart();
+                    this._loadStartWasDispatched = true;
+                }
+
+                // The queue has completed.
+                if (this._numItems == this._numItemsLoaded)
+                {
+                    this.loaded = true;
+                    this._sendComplete();
+
+                    // Load the next queue, if it has been defined.
+                    if (this.next && this.next.load)
+                    {
+                        this.next.load();
+                    }
+                }
+                else
+                {
+                    this.loaded = false;
+                }
+
+                // Must iterate forwards to load in the right order.
+                for (var i=0; i&lt;this._loadQueue.length; i++)
+                {
+                    if (this._currentLoads.length >= this._maxConnections) { break; }
+                    var loader = this._loadQueue[i];
+
+                    // Determine if we should be only loading one at a time:
+                    if (this.maintainScriptOrder
+                        && loader instanceof ss2d.TagLoader
+                        && loader.getItem().type == ss2d.LoadQueue.JAVASCRIPT)
+                    {
+                        if (this._currentlyLoadingScript) { continue; } // Later items in the queue might not be scripts.
+                        this._currentlyLoadingScript = true;
+                    }
+                    this._loadQueue.splice(i, 1);
+                    i--;
+                    this._loadItem(loader);
+                }
+            },
+
+            _loadItem : function(loader)
+            {
+                loader.on("progress", this._handleProgress, this);
+                loader.on("complete", this._handleFileComplete, this);
+                loader.on("error", this._handleFileError, this);
+                this._currentLoads.push(loader);
+                this._sendFileStart(loader.getItem());
+                loader.load();
+            },
+
+            _handleFileError : function(event)
+            {
+                var loader = event.target;
+                this._numItemsLoaded++;
+                this._updateProgress();
+
+                var newEvent = new ss2d.Event("error");
+                newEvent.text = "FILE_LOAD_ERROR";
+                newEvent.item = loader.getItem();
+                // TODO: Propagate actual error message.
+
+                this._sendError(newEvent);
+
+                if (!this.stopOnError)
+                {
+                    this._removeLoadItem(loader);
+                    this._loadNext();
+                }
+            },
+
+            _handleFileComplete : function(event)
+            {
+                var loader = event.target;
+                var item = loader.getItem();
+                this._loadedResults[item.id] = loader.getResult();
+                if (loader instanceof ss2d.XHRLoader)
+                {
+                    this._loadedRawResults[item.id] = loader.getResult(true);
+                }
+                this._removeLoadItem(loader);
+                // Ensure that script loading happens in the right order.
+                if (this.maintainScriptOrder && item.type == ss2d.LoadQueue.JAVASCRIPT)
+                {
+                    if (loader instanceof ss2d.TagLoader)
+                    {
+                        this._currentlyLoadingScript = false;
+                    }
+                    else
+                    {
+                        this._loadedScripts[ss2d.indexOf(this._scriptOrder, item)] = item;
+                        this._checkScriptLoadOrder(loader);
+                        return;
+                    }
+                }
+                // Clean up the load item
+                delete item._loadAsJSONP;
+                // If the item was a manifest, then
+                if (item.type == ss2d.LoadQueue.MANIFEST)
+                {
+                    var result = loader.getResult();
+                    if (result != null && result.manifest !== undefined)
+                    {
+                        this.loadManifest(result, true);
+                    }
+                }
+                this._processFinishedLoad(item, loader);
+            },
+
+            _processFinishedLoad : function(item, loader)
+            {
+                // Old handleFileTagComplete follows here.
+                this._numItemsLoaded++;
+                this._updateProgress();
+                this._sendFileComplete(item, loader);
+                this._loadNext();
+            },
+
+            _checkScriptLoadOrder : function ()
+            {
+                var l = this._loadedScripts.length;
+                for (var i=0;i&lt;l;i++)
+                {
+                    var item = this._loadedScripts[i];
+                    if (item === null) { break; } // This is still loading. Do not process further.
+                    if (item === true) { continue; } // This has completed, and been processed. Move on.
+
+                    // Append script tags to the head automatically. Tags do this in the loader, but XHR scripts have to maintain order.
+                    var loadItem = this._loadedResults[item.id];
+                    (document.body || document.getElementsByTagName("body")[0]).appendChild(loadItem);
+
+                    this._processFinishedLoad(item);
+                    this._loadedScripts[i] = true;
+                }
+            },
+
+            _removeLoadItem : function(loader)
+            {
+                var l = this._currentLoads.length;
+                for (var i=0;i&lt;l;i++)
+                {
+                    if (this._currentLoads[i] == loader)
+                    {
+                        this._currentLoads.splice(i,1); break;
+                    }
+                }
+            },
+
+            _handleProgress : function(event)
+            {
+                var loader = event.target;
+                this._sendFileProgress(loader.getItem(), loader.progress);
+                this._updateProgress();
+            },
+
+            _updateProgress : function ()
+            {
+                var loaded = this._numItemsLoaded / this._numItems; // Fully Loaded Progress
+                var remaining = this._numItems-this._numItemsLoaded;
+                if (remaining > 0)
+                {
+                    var chunk = 0;
+                    for (var i=0, l=this._currentLoads.length; i&lt;l; i++) {
+                        chunk += this._currentLoads[i].progress;
+                    }
+                    loaded += (chunk / remaining) * (remaining/this._numItems);
+                }
+                this._sendProgress(loaded);
+            },
+
+            _disposeItem : function(item)
+            {
+                delete this._loadedResults[item.id];
+                delete this._loadedRawResults[item.id];
+                delete this._loadItemsById[item.id];
+                delete this._loadItemsBySrc[item.src];
+            },
+
+            _createTag : function(item)
+            {
+                var tag = null;
+                switch (item.type)
+                {
+                    case ss2d.LoadQueue.IMAGE:
+                        tag = document.createElement("img");
+                        if (this._crossOrigin != "" && !this._isLocal(item)) { tag.crossOrigin = this._crossOrigin; }
+                        return tag;
+                    case ss2d.LoadQueue.SOUND:
+                        tag = document.createElement("audio");
+                        tag.autoplay = false;
+                        // Note: The type property doesn't seem necessary.
+                        return tag;
+                    case ss2d.LoadQueue.JSON:
+                    case ss2d.LoadQueue.JSONP:
+                    case ss2d.LoadQueue.JAVASCRIPT:
+                    case ss2d.LoadQueue.MANIFEST:
+                        tag = document.createElement("script");
+                        tag.type = "text/javascript";
+                        return tag;
+                    case ss2d.LoadQueue.CSS:
+                        if (this.useXHR)
+                        {
+                            tag = document.createElement("style");
+                        }
+                        else
+                        {
+                            tag = document.createElement("link");
+                        }
+                        tag.rel  = "stylesheet";
+                        tag.type = "text/css";
+                        return tag;
+                    case ss2d.LoadQueue.SVG:
+                        if (this.useXHR)
+                        {
+                            tag = document.createElement("svg");
+                        }
+                        else
+                        {
+                            tag = document.createElement("object");
+                            tag.type = "image/svg+xml";
+                        }
+                        return tag;
+                }
+                return null;
+            },
+
+            _getTypeByExtension : function(extension)
+            {
+                if (extension == null)
+                {
+                    return ss2d.LoadQueue.TEXT;
+                }
+                switch (extension.toLowerCase())
+                {
+                    case "jpeg":
+                    case "jpg":
+                    case "gif":
+                    case "png":
+                    case "webp":
+                    case "bmp":
+                        return ss2d.LoadQueue.IMAGE;
+                    case "ogg":
+                    case "mp3":
+                    case "wav":
+                        return ss2d.LoadQueue.SOUND;
+                    case "json":
+                        return ss2d.LoadQueue.JSON;
+                    case "xml":
+                        return ss2d.LoadQueue.XML;
+                    case "css":
+                        return ss2d.LoadQueue.CSS;
+                    case "js":
+                        return ss2d.LoadQueue.JAVASCRIPT;
+                    case 'svg':
+                        return ss2d.LoadQueue.SVG;
+                    default:
+                        return ss2d.LoadQueue.TEXT;
+                }
+            },
+
+            _sendFileProgress : function(item, progress)
+            {
+                if (this._isCanceled())
+                {
+                    this._cleanUp();
+                    return;
+                }
+                if (!this.hasEventListener("fileprogress")) { return; }
+                var event = new ss2d.Event("fileprogress");
+                event.progress = progress;
+                event.loaded = progress;
+                event.total = 1;
+                event.item = item;
+                this.dispatchEvent(event);
+            },
+
+            _sendFileComplete : function(item, loader)
+            {
+                if (this._isCanceled()) { return; }
+                var event = new ss2d.Event("fileload");
+                event.loader = loader;
+                event.item = item;
+                event.result = this._loadedResults[item.id];
+                event.rawResult = this._loadedRawResults[item.id];
+                // This calls a handler specified on the actual load item. Currently, the SoundJS plugin uses this.
+                if (item.completeHandler)
+                {
+                    item.completeHandler(event);
+                }
+                this.hasEventListener("fileload") && this.dispatchEvent(event)
+            },
+
+            _sendFileStart : function(item)
+            {
+                var event = new ss2d.Event("filestart");
+                event.item = item;
+                this.hasEventListener("filestart") && this.dispatchEvent(event);
+            }
+        }
+    );
+})();</code></pre>
+        </article>
+    </section>
+
+
+
+
+
+        
+        <!-- disqus code -->
+        <div id="disqus_thread"></div>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">评论系统由<span class="logo-disqus">Disqus</span>强力驱动</a>
+        <!-- // disqus code -->
+        
+
+        <footer>
+            Copyright 2013-2014 <a target="_blank" href="http://sirius2d.com">SIRIUS2D.COM</a> <a target="_blank" href="http://html5gamedev.org">HTML5GAMEDEV.ORG</a> All Right Reserved.
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

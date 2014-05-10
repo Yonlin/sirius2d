@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-16"?>
+
+<TextureAtlas imagePath="game.png" >
+<!-- 	<SubTexture name="icon0" x="211" y="423" width="36" height="36"/> -->
+	<SubTexture name="icon1" x="149" y="205" width="36" height="36"/>
+    <SubTexture name="icon2" x="174" y="459" width="36" height="36"/>
+    <SubTexture name="icon3" x="174" y="422" width="36" height="36"/>
+    <SubTexture name="icon4" x="260" y="205" width="36" height="36"/>
+    <SubTexture name="icon115" x="223" y="235" width="36" height="36"/>
+    <SubTexture name="icon6" x="223" y="197" width="36" height="36"/>
+    <SubTexture name="icon7" x="223" y="160" width="36" height="36"/>
+    <SubTexture name="icon8" x="186" y="160" width="36" height="36"/>
+    <SubTexture name="icon5" x="186" y="205" width="36" height="36"/>
+    <SubTexture name="icon10" x="149" y="160" width="36" height="36"/>
+    <SubTexture name="icon111" x="149" y="205" width="36" height="36"/>
+    <SubTexture name="icon12" x="137" y="459" width="36" height="36"/>
+    <SubTexture name="icon13" x="137" y="422" width="36" height="36"/>
+    <SubTexture name="icon14" x="100" y="459" width="36" height="36"/>
+    <SubTexture name="icon15" x="100" y="422" width="36" height="36"/>
+    <SubTexture name="icon16" x="63" y="459" width="36" height="36"/>
+    <SubTexture name="icon17" x="63" y="422" width="36" height="36"/>
+    <SubTexture name="icon18" x="26" y="459" width="36" height="36"/>
+    <SubTexture name="icon19" x="26" y="422" width="36" height="36"/>
+    <SubTexture name="icon20" x="112" y="205" width="36" height="36"/>
+    <SubTexture name="star" x="112" y="155" width="36" height="36"/>
+    <SubTexture name="icon22" x="75" y="205" width="36" height="36"/>
+    <SubTexture name="icon23" x="39" y="160" width="36" height="36"/>
+    <SubTexture name="icon24" x="2" y="160" width="36" height="36"/>
+    <SubTexture name="bottom0000" x="505" y="2" width="4" height="25"/>
+
+    <SubTexture name="line0000" x="149" y="105" width="130" height="54" />
+    <SubTexture name="loudou0000" x="2" y="206" width="71" height="64"/>
+    <SubTexture name="score0000" x="2" y="423" width="22" height="84" />
+    <SubTexture name="startbtn0000" x="149" y="274" width="145" height="147"/>
+    <SubTexture name="timebottom" x="289" y="2" width="202" height="202"/>
+    <SubTexture name="timeline0000" x="2" y="105" width="128" height="49"/>
+    <SubTexture name="timetick0000" x="2" y="274" width="145" height="147"/>
+    <SubTexture name="tip00000" x="493" y="2" width="10" height="27" />
+    <SubTexture name="title0000" x="2" y="2" width="285" height="101"/>
+    <SubTexture name="topbottom0000" x="493" y="31" width="8" height="241"/>
+    <SubTexture name="background"  x="495" y="34" width="2" height="8"/>
+    <SubTexture name="gamebg" x="238" y="205" width="2" height="2"/>
+</TextureAtlas>

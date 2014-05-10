@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-16"?>
+
+<TextureAtlas imagePath="effect.png" >
+    <SubTexture name="star"  x="0" y="0" width="40" height="40"/>
+    <SubTexture name="star2" x="40" y="0" width="40" height="40"/>
+</TextureAtlas>

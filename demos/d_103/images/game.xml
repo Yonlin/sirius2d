@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-16"?>
+
+<TextureAtlas imagePath="game.png">
+ 
+ <SubTexture name="icon0000" x="78" y="685" width="70" height="70"/>
+    <SubTexture name="icon0001" x="294" y="650" width="70" height="70"/>
+    <SubTexture name="icon0002" x="78" y="613" width="70" height="70"/>
+    <SubTexture name="icon0003" x="2" y="688" width="70" height="70"/>
+     <SubTexture name="icon0004" x="222" y="650" width="70" height="70"/>
+    <SubTexture name="icon0005" x="150" y="650" width="70" height="70"/>
+    
+    <SubTexture name="Musicban" x="348" y="766" width="64" height="64"/>
+    <SubTexture name="Tbomb" x="283" y="459" width="128" height="50" oX="0" oY="39" oW="128" oH="128"/>
+<!--     <SubTexture name="gamebg" x="287" y="189" width="4" height="4"/> -->
+     <SubTexture name="gamebg" x="2" y="1000" width="24" height="24"/>
+    <SubTexture name="bgfff" x="290" y="193" width="2" height="2"/>
+    <SubTexture name="bomb" x="367" y="559" width="36" height="50" r="y"/>
+    <SubTexture name="bottom" x="290" y="165" width="2" height="25"/>
+    <SubTexture name="check" x="367" y="611" width="35" height="35"/>
+    <SubTexture name="comboTick" x="414" y="829" width="60" height="58" oX="1" oY="0" oW="60" oH="60" r="y"/>
+    <SubTexture name="combobottom" x="2" y="613" width="74" height="73"/>
+    <SubTexture name="comboline" x="151" y="505" width="128" height="49" r="y"/>
+    <SubTexture name="coml" x="281" y="511" width="123" height="46" r="y"/>
+    <SubTexture name="eye" x="294" y="650" width="70" height="70"/>
+    <SubTexture name="fan" x="151" y="319" width="110" height="128" oX="0" oY="0" oW="128" oH="128" r="y"/>
+     <SubTexture name="game" x="222" y="650" width="70" height="70"/>
+    <SubTexture name="gameover-score" x="296" y="2" width="210" height="251" r="y"/>
+    <SubTexture name="heart" x="2" y="688" width="70" height="70"/>
+    <SubTexture name="lizi" x="245" y="556" width="27" height="44" oX="4" oY="0" oW="48" oH="27" r="y"/>
+    <SubTexture name="music" x="282" y="722" width="64" height="64"/>
+    <SubTexture name="pause" x="216" y="722" width="64" height="64"/>
+    <SubTexture name="play" x="2" y="760" width="64" height="64"/>
+    <SubTexture name="props" x="2" y="268" width="259" height="49"/>
+    <SubTexture name="refresh" x="151" y="556" width="92" height="92"/>
+    <SubTexture name="score" x="263" y="268" width="22" height="84" r="y"/>
+    <SubTexture name="quickTips" x="74" y="757" width="64" height="64"/>
+    <SubTexture name="select" x="414" y="766" width="61" height="61"/>
+    <SubTexture name="star3" x="274" y="559" width="91" height="89"/>
+    <SubTexture name="start" x="2" y="466" width="147" height="145" r="y"/>
+    <SubTexture name="star1" x="404" y="630" width="75" height="68"/>
+    <SubTexture name="star2" x="413" y="459" width="75" height="69" r="y"/>
+    <SubTexture name="startbottom" x="289" y="255" width="202" height="202"/>
+    <SubTexture name="Supercombos" x="150" y="722" width="64" height="64"/>
+    <SubTexture name="tbombTool" x="432" y="700" width="64" height="64"/>
+    <SubTexture name="timetick" x="2" y="319" width="147" height="145" r="y"/>
+    <SubTexture name="timeOffers" x="366" y="700" width="64" height="64"/>
+    <SubTexture name="tipPanle" x="2" y="2" width="292" height="161"/>
+    <SubTexture name="tipiocn" x="406" y="530" width="98" height="98"/>
+    <SubTexture name="title" x="2" y="165" width="285" height="101"/>
+    <SubTexture name="topbar" x="495" y="255" width="4" height="241"/>
+    <SubTexture name="yeti" x="151" y="449" width="130" height="54" r="y"/>
+	 <SubTexture name="crossBomb" x="35" y="960" width="64" height="64"/>
+</TextureAtlas>

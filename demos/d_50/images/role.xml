@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:b063b0637b53f445e631d8a1fe63ee18$ -->
+<TextureAtlas imagePath="role.png">
+    <SubTexture name="role1_10000" x="2" y="688" width="50" height="98"/>
+    <SubTexture name="role1_10001" x="2" y="590" width="50" height="98"/>
+    <SubTexture name="role1_10002" x="2" y="492" width="50" height="98"/>
+    <SubTexture name="role1_10003" x="2" y="394" width="50" height="98"/>
+    <SubTexture name="role1_10004" x="2" y="296" width="50" height="98"/>
+    <SubTexture name="role1_10005" x="2" y="198" width="50" height="98"/>
+    <SubTexture name="role1_10006" x="2" y="100" width="50" height="98"/>
+    <SubTexture name="role1_10007" x="2" y="2" width="50" height="98"/>
+    <SubTexture name="role2_20000" x="2" y="1472" width="49" height="98"/>
+    <SubTexture name="role2_20001" x="2" y="1374" width="49" height="98"/>
+    <SubTexture name="role2_20002" x="2" y="1276" width="49" height="98"/>
+    <SubTexture name="role2_20003" x="2" y="1178" width="49" height="98"/>
+    <SubTexture name="role2_20004" x="2" y="1080" width="49" height="98"/>
+    <SubTexture name="role2_20005" x="2" y="982" width="49" height="98"/>
+    <SubTexture name="role2_20006" x="2" y="884" width="49" height="98"/>
+    <SubTexture name="role2_20007" x="2" y="786" width="49" height="98"/>
+    <SubTexture name="role3_30000" x="51" y="1451" width="46" height="95"/>
+    <SubTexture name="role3_30001" x="51" y="1356" width="46" height="95"/>
+    <SubTexture name="role3_30002" x="51" y="1261" width="46" height="95"/>
+    <SubTexture name="role3_30003" x="51" y="1166" width="46" height="95"/>
+    <SubTexture name="role3_30004" x="51" y="1071" width="46" height="95"/>
+    <SubTexture name="role3_30005" x="51" y="976" width="46" height="95"/>
+    <SubTexture name="role3_30006" x="51" y="881" width="46" height="95"/>
+    <SubTexture name="role3_30007" x="51" y="786" width="46" height="95"/>
+    <SubTexture name="role4_40000" x="46" y="1861" width="44" height="97"/>
+    <SubTexture name="role4_40001" x="46" y="1764" width="44" height="97"/>
+    <SubTexture name="role4_40002" x="46" y="1667" width="44" height="97"/>
+    <SubTexture name="role4_40003" x="46" y="1570" width="44" height="97"/>
+    <SubTexture name="role4_40004" x="2" y="1861" width="44" height="97"/>
+    <SubTexture name="role4_40005" x="2" y="1764" width="44" height="97"/>
+    <SubTexture name="role4_40006" x="2" y="1667" width="44" height="97"/>
+    <SubTexture name="role4_40007" x="2" y="1570" width="44" height="97"/>
+    <SubTexture name="role5_50000" x="52" y="192" width="46" height="95"/>
+    <SubTexture name="role5_50001" x="52" y="97" width="46" height="95"/>
+    <SubTexture name="role5_50002" x="52" y="2" width="46" height="95"/>
+    <SubTexture name="role5_50003" x="90" y="1926" width="46" height="95"/>
+    <SubTexture name="role5_50004" x="90" y="1831" width="46" height="95"/>
+    <SubTexture name="role5_50005" x="90" y="1736" width="46" height="95"/>
+    <SubTexture name="role5_50006" x="90" y="1641" width="46" height="95"/>
+    <SubTexture name="role5_50007" x="90" y="1546" width="46" height="95"/>
+</TextureAtlas>

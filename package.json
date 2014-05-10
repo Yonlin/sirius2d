@@ -1,0 +1,23 @@
+{
+    "name": "Sirius2d",
+    "version": "1.0.9",
+    "description": "sirius2d game engine",
+    "url": "http://www.sirius2d.com",
+    "author":"sirius2d.com",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/sirius2d/sirius2d/blob/master/LICENSE"
+        }
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-contrib-jshint": "~0.1.1",
+        "grunt-contrib-qunit": "~0.1.1",
+        "grunt-contrib-concat": "~0.1.2",
+        "grunt-contrib-uglify": "~0.1.1",
+        "grunt-contrib-watch": "~0.2.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-replace": "~0.4.0"
+    }
+}

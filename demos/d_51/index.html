@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>demo</title>
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+    <style type="text/css">
+        body {
+            background-color: #FFFFFF;
+            background-position: 54px 105px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: helvetica, arial, sans-serif;
+            font-size: 11pt;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            color: #F47920;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff9536;
+            text-shadow: #F47920 0px 0px 2px;
+
+        }
+
+        h1 {
+            font-size: 140%;
+            margin: 2.5em 0 0 0;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            margin: 20px 0 0 0;
+            font-size: 100%;
+        }
+
+        img {
+            border: 0;
+        }
+
+        dl.comp {
+            font-size: 9pt;
+        }
+
+        dl.comp dt {
+            font-weight: bold;
+            float: left;
+            display: block;
+            width: 14em;
+            text-align: right;
+            margin-right: 0.5em;
+        }
+
+        dl.credits dt {
+            margin-top: 1em;
+        }
+
+        #canvas {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            image-rendering: -moz-crisp-edges; /* firefox */
+            image-rendering: -webkit-optimize-contrast; /* chrome/safari */
+            -ms-interpolation-mode: nearest-neighbor; /* ie */
+        }
+
+        #noCanvas {
+            padding: 90px 32px;
+            font-weight: bold;
+            border: 1px solid #3b3d42;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas">
+    <div id="noCanvas">
+        <p>
+            Hey there, it looks like you're using Microsoft's Internet Explorer. Microsoft
+            hates the Web and doesn't support HTML5 :(
+        </p>
+        <p>
+            To play this game you need a good Browser, like
+            <a href="http://www.opera.com/">Opera</a>,
+            <a href="http://www.google.com/chrome">Chrome</a>,
+            <a href="http://www.mozilla.com/firefox/">Firefox</a> or
+            <a href="http://www.apple.com/safari/">Safari</a>.
+        </p>
+
+    </div>
+</canvas>
+<input type="button" value="Go Fullscreen" id="fsbutton" />
+<script src="../../src/com/sirius2d/core/Sirius2D.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/core/Class.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/core/Interface.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/ControlEvent.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/Controller.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/Model.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/View.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/Module.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/View.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/mvc/Module.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="../../src/com/sirius2d/message/Message.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/message/MessageData.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/message/MessageList.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/message/Broadcast.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/events/Event.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/events/EventDispatcher.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/events/MouseEvent.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/Timer.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/WebGLUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/ClassUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/ColorUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/HitTestUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/utils/StringUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/ui/Input.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/system/Capabilities.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../src/com/sirius2d/geom/FrameFunction.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/ColorTransform.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/Matrix2D.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/Matrix3D.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/Point.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/QuadMatrixUtil.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/Rectangle.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Blend.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/DisplayObject.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/FrameBuffer.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/geom/Group.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Scene.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Sprite.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/MovieClip.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/TextField.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Quad.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/particle/ParticleStyle.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/particle/ParticleCPU.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/particle/ParticleEmittersCPU.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Stage2D.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/TextureStyle.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/display/Texture.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderBasis.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderGLSL.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderBlur.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderGray.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderHdr.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderHeartbeat.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderJoint.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderLaser.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderLight.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderMosaic.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderNet.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderQuick.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderRelief.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderFigure.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderGlass.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderFractal.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderAdvanced.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/shader/ShaderAbstract.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/loader/AbstractLoader.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/loader/LoadQueue.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/loader/SamplePlugin.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/loader/TagLoader.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/loader/XHRLoader.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../src/com/sirius2d/spriter/data/ScmlData.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/AnimationData.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Ref.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/BoneRef.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/ObjectRef.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Command.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/File.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Folder.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Key.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/MainKey.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Timeline.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/models/Transform.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/Animation.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/spriter/SpriterMc.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../src/com/sirius2d/data/list/List.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/data/list/ListDecoder.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/data/list/ListEncoder.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/data/list/ListItem.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../src/com/sirius2d/sound/SoundControl.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/sound/SoundItem.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../src/com/sirius2d/sound/SoundManager.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../src/com/sirius2d/component/Button.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="js/Main.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/Background.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/Components.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    new demo.Main("canvas", document.body.clientWidth, document.body.clientHeight);
+    var fsButton = document.getElementById('fsbutton');
+    var fsElement = document.getElementById('canvas')
+    fsButton.addEventListener('click', function() {
+        ss2d.requestFullScreen(fsElement);
+    }, true);
+</script>
+</body>
+</html>
